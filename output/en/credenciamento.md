@@ -14,7 +14,8 @@
 
  **Figura 3 - Portal de Serviços do DATASUS** 
 
- Inicialmente é apresentado ao usuário a tela inicial que contempla todos os serviços disponibilizados, onde o usuário deverá identificar e clicar naquele que deseja solicitar a integração. 
+ 
+Inicialmente é apresentado ao usuário a tela inicial que contempla todos os serviços disponibilizados, onde o usuário deverá identificar e clicar naquele que deseja solicitar a integração. 
 
  Após isso, o usuário será direcionado para a página principal dos serviços, onde podem ser encontradas todas as informações necessárias sobre o serviço selecionado juntamente com seu material de apoio e canal de suporte. Há também um botão denominado “Solicitar Acesso”, o qual o usuário deverá clicar para ser encaminhado os próximos passos da integração. 
 
@@ -24,7 +25,8 @@
 
  **Figura 4 - Página de autenticação da plataforma GOV.BR** 
 
- O gestor do estabelecimento de saúde deverá criar uma conta gov.br, e caso não possua uma, deverá providenciar, pois será necessária para requisitar a solicitação de acesso à RNDS. 
+ 
+O gestor do estabelecimento de saúde deverá criar uma conta gov.br, e caso não possua uma, deverá providenciar, pois será necessária para requisitar a solicitação de acesso à RNDS. 
 
 ### Certificado Digital
 
@@ -48,5 +50,6 @@ Caso a solicitação envolva uma lista de estabelecimentos de saúde, todos deve
 
  **Figura 6 - Gerenciador de Credenciais** 
 
- Este número deve ser sempre empregado na construção da identificação de uma requisição submetida para a RNDS. 
+ 
+Este número deve ser sempre empregado na construção da identificação de uma requisição submetida para a RNDS. 
 

@@ -32,11 +32,11 @@
   </p>
   <div>
 
-    <img height="400" src="portalServicos.png" alt="Portal de Serviços do Datasus" />
+    <img height="500" src="portalServicos.png" alt="Portal de Serviços do Datasus" />
 
   </div>
   <p>
-    Inicialmente é apresentado ao usuário a tela inicial que contempla todos os serviços
+    <br />Inicialmente é apresentado ao usuário a tela inicial que contempla todos os serviços
     disponibilizados,
     onde o usuário deverá identificar e clicar naquele que deseja solicitar a integração.
   </p>
@@ -65,7 +65,7 @@
   </div>
 
   <p>
-    O gestor do estabelecimento de saúde deverá criar uma conta gov.br, e caso não possua uma,
+    <br />O gestor do estabelecimento de saúde deverá criar uma conta gov.br, e caso não possua uma,
     deverá
     providenciar, pois será necessária para requisitar a solicitação de acesso à RNDS.
   </p>
@@ -123,7 +123,7 @@
   </div>
 
   <p>
-    Este número deve ser sempre empregado na construção da identificação de uma requisição submetida
+    <br />Este número deve ser sempre empregado na construção da identificação de uma requisição submetida
     para a RNDS.
   </p>
 
