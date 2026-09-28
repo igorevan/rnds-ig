@@ -1,0 +1,39 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="credenciamento.html">Credenciamento</a>
+  </li>
+  <li>
+    <a href="integracao.html">Integração</a>
+  </li>
+
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="toc.html" class="dropdown-toggle"> Ajuda <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="toc.html">Índice</a>
+      </li>
+      <li>
+        <a target="_blank" href="{{site.data.fhir.path}}index.html"> Especificações do FHIR R4 <img
+            src="external.png"
+            style="text-align: baseline" />
+        </a>
+      </li>
+      <li>
+        <a href="changes.html">Histórico de mudanças</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="forms.html">Feedback</a>
+      </li>
+      <li>
+        <a href="suporte.html">Suporte da RNDS</a>
+      </li>
+    </ul>
+  </li>
+</ul>

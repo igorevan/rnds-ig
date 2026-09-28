@@ -1,0 +1,7 @@
+[{
+  "id" : "br.gov.saude.rnds.fhir",
+  "type" : "ImplementationGuide",
+  "url" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir",
+  "version" : "1.0.0-release",
+  "name" : "RNDSIG"
+}]

@@ -1,0 +1,18 @@
+# br.gov.saude.rnds.fhir#1.0.0-release: Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)(en)
+
+## Pages
+
+* [Principal](index.md)
+* [Credenciamento](credenciamento.md)
+* [Downloads](downloads.md)
+* [Suporte da RNDS](suporte.md)
+* [Feedback](forms.md)
+* [Integração](integracao.md)
+* [Artifacts Summary](artifacts.md)
+* [Histórico de mudanças](changes.md)
+
+## Resources
+
+### ImplementationGuides
+
+* [Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)](ImplementationGuide-br.gov.saude.rnds.fhir.md)

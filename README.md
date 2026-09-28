@@ -1,2 +1,3 @@
 # rnds-ig
-Implementation Guide (IG) da Rede Nacional de Dados em Saúde (RNDS)
+
+Para subir esse IG no Github Pages é necessário mudar o nome da pasta "output" para "docs" sempre que gerar uma nova versão do IG.

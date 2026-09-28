@@ -1,0 +1,189 @@
+{
+  "date" : "Mon, 28 Sep, 2026 16:32:57 -0300",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/input/myig.xml",
+    "size" : 4345,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 12,
+      "length" : 58
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 13,
+      "length" : 14
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 13,
+      "length" : 40
+    },
+    {
+      "activity" : "validate",
+      "start" : 13,
+      "length" : 6050
+    },
+    {
+      "activity" : "generate1",
+      "start" : 19,
+      "length" : 126
+    },
+    {
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 75
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 33,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 37,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/includes/menu.xml",
+    "size" : 1040,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/index.xml",
+    "size" : 7237,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 33
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/changes.xml",
+    "size" : 458,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 13,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/suporte.xml",
+    "size" : 771,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/downloads.xml",
+    "size" : 1340,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/integracao.xml",
+    "size" : 12884,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 26
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/credenciamento.xml",
+    "size" : 5882,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/forms.xml",
+    "size" : 967,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "/input/pagecontent",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140,
+    "processes" : [{
+      "activity" : "scan",
+      "start" : 13,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/portalServicos.png",
+    "size" : 266125
+  },
+  {
+    "name" : "/input/images/gerenciadorCredenciais.png",
+    "size" : 92837
+  },
+  {
+    "name" : "/input/images/riarMC.png",
+    "size" : 34229,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/estabelecimentosFilhos.png",
+    "size" : 33060
+  },
+  {
+    "name" : "/input/images/acessoGov.png",
+    "size" : 615672,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 216
+  },
+  {
+    "name" : "/temp/pages/_includes/fragment-artifacts-table.html",
+    "size" : 3362,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 27,
+      "length" : 1
+    }]
+  }]
+}

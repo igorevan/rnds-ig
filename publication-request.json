@@ -1,0 +1,18 @@
+{
+  "package-id": "br.gov.saude.rnds.fhir",
+  "version": "1.0.0-release",
+  "path": "https://fhir.saude.gov.br/rnds/",
+  "mode": "working",
+  "status": "release",
+  "sequence": "Releases",
+  "desc": "1.0.0 Release",
+  "changes": "changes.html",
+  "first": true,
+  "title": "RNDS IG",
+  "ci-build": "https://igorevan.github.io/rnds-ig/",
+  "registry-description": "Primeira versão do Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
+  "registry-country": "BR",
+  "registry-authority": "Ministério da Saúde do Brasil",
+  "category": "base",
+  "introduction": "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)"
+}
