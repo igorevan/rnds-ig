@@ -8,10 +8,14 @@
 * [Suporte da RNDS](en/suporte.md)
 * [Feedback](en/forms.md)
 * [Integração](en/integracao.md)
-* [Artifacts Summary](en/artifacts.md)
+* [Artefatos](en/artifacts.md)
 * [Histórico de mudanças](en/changes.md)
 
 ## Resources
+
+### CapabilityStatements
+
+* [CapabilityStatement do EHR-Services da RNDS](en/CapabilityStatement-CapabilityStatement-EHRServices.md)
 
 ### ImplementationGuides
 

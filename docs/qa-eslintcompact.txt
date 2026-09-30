@@ -1,7 +1,6 @@
 RNDSIG
 =========================================
 
-/home/igor/rnds-ig/input/myig.xml: line 1, col 15679, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
 
-err = 1, warn = 0, info = 0
+err = 0, warn = 0, info = 0
 IG Publisher Version: 2.3.4

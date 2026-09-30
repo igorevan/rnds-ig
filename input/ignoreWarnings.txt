@@ -2,8 +2,10 @@
 
 # Erros relacionados as especificações da RNDS
 %have an OID assigned%
+%A restrição falhou%
 
 # Outros erros
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+%Não foi possível encontrar uma definição para o URL canónico%

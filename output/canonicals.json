@@ -1,4 +1,11 @@
 [{
+  "id" : "CapabilityStatement-EHRServices",
+  "type" : "CapabilityStatement",
+  "url" : "https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices",
+  "version" : "1.0.0-release",
+  "name" : "CapabilityStatement-EHRServices"
+},
+{
   "id" : "br.gov.saude.rnds.fhir",
   "type" : "ImplementationGuide",
   "url" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir",

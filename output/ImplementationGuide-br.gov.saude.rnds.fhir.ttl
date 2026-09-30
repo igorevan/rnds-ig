@@ -36,7 +36,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-28T16:52:40-03:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-30T17:33:01-03:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -773,6 +773,20 @@
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ] ;
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices> ;
+         fhir:Reference.reference [ fhir:value "CapabilityStatement/CapabilityStatement-EHRServices" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CapabilityStatement do EHR-Services da RNDS" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "CapabilityStatement do EHR-Services da RNDS" ]
+     ] ;
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [
          fhir:index 0 ;
@@ -837,13 +851,27 @@
          ], [
            fhir:index 1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "artifacts.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "artifacts.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Artefatos" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+       ], [
+         fhir:index 4 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "changes.html" ]
          ] ;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "changes.html" ] ;
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Histórico de mudanças" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 4 ;
+         fhir:index 5 ;
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
@@ -857,7 +885,7 @@
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 5 ;
+         fhir:index 6 ;
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
@@ -871,7 +899,7 @@
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Feedback" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
-         fhir:index 6 ;
+         fhir:index 7 ;
          fhir:Element.extension [
            fhir:index 0 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;

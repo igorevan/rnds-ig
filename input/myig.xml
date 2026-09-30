@@ -55,6 +55,16 @@
     <version value="1.2.0" />
   </dependsOn> -->
   <definition>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/CapabilityStatement-EHRServices" />
+      </reference>
+      <name value="CapabilityStatement do EHR-Services da RNDS" />
+      <description
+        value="CapabilityStatement do EHR-Services da RNDS" />
+      <!-- <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta" /> -->
+    </resource>
     <page>
       <nameUrl value="toc.html" />
       <title value="Índice" />
@@ -72,6 +82,11 @@
       <page>
         <nameUrl value="integracao.html" />
         <title value="Integração" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="artifacts.html" />
+        <title value="Artefatos" />
         <generation value="html" />
       </page>
       <page>

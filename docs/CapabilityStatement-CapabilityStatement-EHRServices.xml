@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="CapabilityStatement-EHRServices"/>
+  <language value="pt-BR"/>
+  <text>
+    <status value="extensions"/><div xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR"><p class="res-header-id"><b>Narrativa gerada: CapabilityStatement CapabilityStatement-EHRServices</b></p><a name="CapabilityStatement-EHRServices"> </a><a name="hcCapabilityStatement-EHRServices"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Língua: pt-BR</p></div><h2 id="title">CapabilityStatement do EHR-Services da RNDS</h2><ul><li>Guia de implementação Versão: 1.0.0-release </li><li>Versão FHIR: 4.0.1 </li><li>Formatos suportados: <code>application/fhir+xml</code>, <code>xml</code>, <code>application/fhir+json</code>, <code>json</code></li><li>Publicado em: 2026-09-28 17:50:50-0300 </li><li>Publicado por: Ministério da Saúde do Brasil </li></ul><blockquote class="impl-note"><p><strong>Nota para os implementadores: Capacidades FHIR</strong></p><p>Qualquer capacidade FHIR pode ser &quot;permitida&quot; pelo sistema, exceto se for explicitamente assinalada como &quot;NÃO DEVE&quot;. Alguns itens são marcados como MAY no Guia de Implementação para destacar a sua potencial relevância para o caso de utilização.</p></blockquote><h2 id="rest">Capacidades FHIR RESTful</h2><div class="panel panel-default"><div class="panel-heading"><h3 id="mode1" class="panel-title">Mode: <code>server</code></h3></div><div class="panel-body"/></div><h3 id="resourcesCap1">Capacidades por recurso/perfil</h3><h4 id="resourcesSummary1">Resumo</h4><p>A tabela de resumo enumera os recursos que fazem parte desta configuração e, para cada recurso, enumera-os:</p><ul><li>Os perfis relevantes (se existirem)</li><li>As interações suportadas por cada recurso (<b><span class="bg-info">R</span></b>ead, <b><span class="bg-info">S</span></b>earch, <b><span class="bg-info">U</span></b>pdate, and <b><span class="bg-info">C</span></b>reate, are always shown, while <b><span class="bg-info">VR</span></b>ead, <b><span class="bg-info">P</span></b>atch, <b><span class="bg-info">D</span></b>elete, <b><span class="bg-info">H</span></b>istory on <b><span class="bg-info">I</span></b>nstance, or <b><span class="bg-info">H</span></b>istory on <b><span class="bg-info">T</span></b>só estão presentes se pelo menos um dos recursos os suportar.</li><li><span>Os parâmetros de pesquisa obrigatórios, recomendados e alguns opcionais (se existirem). </span></li><li>Os recursos ligados activados para <code>_include</code></li><li>Os outros recursos activados para <code>_revinclude</code></li><li>As operações sobre o recurso (se existirem)</li></ul><div class="table-responsive"><table class="table table-condensed table-hover"><thead><tr><th><b>Tipo de recurso</b></th><th><b>Perfil</b></th><th class="text-center"><b title="GET um recurso (interação de leitura)">R</b></th><th class="text-center"><b title="GET todo o conjunto de recursos do tipo (interação de pesquisa)">S</b></th><th class="text-center"><b title="PUT uma nova versão do recurso (interação de atualização)">U</b></th><th class="text-center"><b title="POST um novo recurso (criar interação)">C</b></th><th class="text-center"><b title="ELIMINAR um recurso (eliminar interação)">D</b></th><th><b title="Parâmetros de pesquisa necessários e recomendados">Pesquisas</b></th><th><code><b>_include</b></code></th><th><code><b>_revinclude</b></code></th><th><b>Operações</b></th></tr></thead><tbody><tr><td><a href="#Bundle1-1">Bundle</a></td><td><a href="http://hl7.org/fhir/R4/bundle.html">http://hl7.org/fhir/StructureDefinition/Bundle</a></td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center">y</td><td class="text-center">y</td><td/><td><code>*</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr><tr><td><a href="#CodeSystem1-2">CodeSystem</a></td><td><a href="http://hl7.org/fhir/R4/codesystem.html">http://hl7.org/fhir/StructureDefinition/CodeSystem</a></td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td class="text-center"/><td class="text-center"/><td/><td><code>*</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td><code>$lookup</code></td></tr><tr><td><a href="#Composition1-3">Composition</a></td><td><a href="http://hl7.org/fhir/R4/composition.html">http://hl7.org/fhir/StructureDefinition/Composition</a></td><td class="text-center">y</td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td>subject, _bookmark, _count</td><td><code>Composition:author</code>, <code>Composition:subject</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td><code>$document</code></td></tr><tr><td><a href="#Consent1-4">Consent</a></td><td><a href="http://hl7.org/fhir/R4/consent.html">http://hl7.org/fhir/StructureDefinition/Consent</a></td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center">y</td><td class="text-center"/><td/><td><code>*</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr><tr><td><a href="#List1-5">List</a></td><td>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRListaTimeline-1.0</td><td class="text-center"/><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td>code, subject</td><td><code>*</code>, <code>List:subject</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr><tr><td><a href="#OperationDefinition1-6">OperationDefinition</a></td><td><a href="http://hl7.org/fhir/R4/operationdefinition.html">http://hl7.org/fhir/StructureDefinition/OperationDefinition</a></td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td class="text-center"/><td/><td><code>*</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr><tr><td><a href="#Organization1-7">Organization</a></td><td><a href="http://hl7.org/fhir/R4/organization.html">http://hl7.org/fhir/StructureDefinition/Organization</a></td><td class="text-center">y</td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td>identifier</td><td><code>*</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr><tr><td><a href="#Patient1-8">Patient</a></td><td>http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-patient-1.0</td><td class="text-center">y</td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td>_bookmark, _count, birthdate, birthplace, gender, mothers-name, name, identifier</td><td><code>*</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr><tr><td><a href="#Practitioner1-9">Practitioner</a></td><td>http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitioner-1.0</td><td class="text-center">y</td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td>identifier</td><td><code>*</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr><tr><td><a href="#PractitionerRole1-10">PractitionerRole</a></td><td>http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitionerrole-1.0</td><td class="text-center">y</td><td class="text-center">y</td><td class="text-center"/><td class="text-center"/><td class="text-center"/><td>organization, practitioner</td><td><code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td><code>Composition:subject</code>, <code>List:subject</code>, <code>PractitionerRole:organization</code>, <code>PractitionerRole:practitioner</code></td><td/></tr></tbody></table></div><hr/><div class="panel panel-default"><div class="panel-heading"><h4 id="Bundle1-1" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>Bundle</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><a href="http://hl7.org/fhir/R4/bundle.html">Bundle</a></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>create</code>, <code>delete</code>, <code>read</code>.</li></ul></div></div><p/></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="CodeSystem1-2" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>CodeSystem</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul/></div></div><p/><div class="row"><div class="col-12"><span class="lead">Operações alargadas</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Funcionamento</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>$lookup</td><td><div/></td></tr></tbody></table></div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="Composition1-3" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>Composition</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><a href="http://hl7.org/fhir/R4/composition.html">Composition</a></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>read</code>, <code>search-type</code>.</li></ul></div></div><p/><div class="row"><div class="col-lg-7"><span class="lead">Parâmetros de pesquisa</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Parâmetro</th><th>Tipo</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>subject</td><td><code>reference</code></td><td><div><p>Who and/or what the composition is about</p>
+</div></td></tr><tr><td><b>SHALL</b></td><td>_bookmark</td><td><code>string</code></td><td><div/></td></tr><tr><td><b>SHALL</b></td><td>_count</td><td><code>number</code></td><td><div/></td></tr></tbody></table></div><div class="col-lg-5"> </div></div><div class="row"><div class="col-12"><span class="lead">Operações alargadas</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Funcionamento</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>$document</td><td><div/></td></tr></tbody></table></div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="Consent1-4" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>Consent</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><a href="http://hl7.org/fhir/R4/consent.html">Consent</a></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>read</code>, <code>create</code>.</li></ul></div></div><p/></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="List1-5" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>List</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRListaTimeline-1.0</code></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>search-type</code>.</li></ul></div></div><p/><div class="row"><div class="col-lg-7"><span class="lead">Parâmetros de pesquisa</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Parâmetro</th><th>Tipo</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>code</td><td><code>token</code></td><td><div><p>What the purpose of this list is</p>
+</div></td></tr><tr><td><b>SHALL</b></td><td>subject</td><td><code>reference</code></td><td><div><p>If all resources have the same subject</p>
+</div></td></tr></tbody></table></div><div class="col-lg-5"> </div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="OperationDefinition1-6" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>OperationDefinition</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><a href="http://hl7.org/fhir/R4/operationdefinition.html">OperationDefinition</a></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>read</code>.</li></ul></div></div><p/></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="Organization1-7" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>Organization</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><a href="http://hl7.org/fhir/R4/organization.html">Organization</a></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>read</code>, <code>search-type</code>.</li></ul></div></div><p/><div class="row"><div class="col-lg-7"><span class="lead">Parâmetros de pesquisa</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Parâmetro</th><th>Tipo</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>identifier</td><td><code>token</code></td><td><div><p>Any identifier for the organization (not the accreditation issuer's identifier)</p>
+</div></td></tr></tbody></table></div><div class="col-lg-5"> </div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="Patient1-8" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>Patient</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><code>http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-patient-1.0</code></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>read</code>, <code>search-type</code>.</li></ul></div></div><p/><div class="row"><div class="col-lg-7"><span class="lead">Parâmetros de pesquisa</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Parâmetro</th><th>Tipo</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>_bookmark</td><td><code>string</code></td><td><div/></td></tr><tr><td><b>SHALL</b></td><td>_count</td><td><code>number</code></td><td><div/></td></tr><tr><td><b>SHALL</b></td><td>birthdate</td><td><code>date</code></td><td><div><p>The patient's date of birth</p>
+</div></td></tr><tr><td><b>SHALL</b></td><td>birthplace</td><td><code>string</code></td><td><div/></td></tr><tr><td><b>SHALL</b></td><td>gender</td><td><code>string</code></td><td><div><p>Gender of the patient</p>
+</div></td></tr><tr><td><b>SHALL</b></td><td>mothers-name</td><td><code>string</code></td><td><div/></td></tr><tr><td><b>SHALL</b></td><td>name</td><td><code>string</code></td><td><div><p>A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text</p>
+</div></td></tr><tr><td><b>SHALL</b></td><td>identifier</td><td><code>token</code></td><td><div><p>A patient identifier</p>
+</div></td></tr></tbody></table></div><div class="col-lg-5"> </div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="Practitioner1-9" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>Practitioner</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><code>http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitioner-1.0</code></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>read</code>, <code>search-type</code>.</li></ul></div></div><p/><div class="row"><div class="col-lg-7"><span class="lead">Parâmetros de pesquisa</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Parâmetro</th><th>Tipo</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>identifier</td><td><code>token</code></td><td><div><p>A practitioner's Identifier</p>
+</div></td></tr></tbody></table></div><div class="col-lg-5"> </div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h4 id="PractitionerRole1-10" class="panel-title"><span style="float: right;">Conformidade do recurso: unspecified </span>PractitionerRole</h4></div><div class="panel-body"><div class="container"><div class="row"><div class="col-lg-6"><span class="lead">Perfil do sistema de base</span><br/><code>http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitionerrole-1.0</code></div><div class="col-lg-3"><span class="lead">Conformidade do perfil</span><br/><b>SHALL</b></div><div class="col-lg-3"><span class="lead">Política de referência</span><br/></div></div><p/><div class="row"><div class="col-lg-6"><span class="lead">Resumo da interação</span><br/><ul><li>Apoios <code>read</code>, <code>search-type</code>.</li></ul></div></div><p/><div class="row"><div class="col-lg-7"><span class="lead">Parâmetros de pesquisa</span><table class="table table-condensed table-hover"><thead><tr><th>Conformidade</th><th>Parâmetro</th><th>Tipo</th><th>Documentação</th></tr></thead><tbody><tr><td><b>SHALL</b></td><td>organization</td><td><code>reference</code></td><td><div><p>The identity of the organization the practitioner represents / acts on behalf of</p>
+</div></td></tr><tr><td><b>SHALL</b></td><td>practitioner</td><td><code>reference</code></td><td><div><p>Practitioner that is able to provide the defined services for the organization</p>
+</div></td></tr></tbody></table></div><div class="col-lg-5"> </div></div></div></div></div></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ehr"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.1"/>
+  </extension>
+  <url value="https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices"/>
+  <version value="1.0.0-release"/>
+  <name value="CapabilityStatement-EHRServices"/>
+  <title value="CapabilityStatement do EHR-Services da RNDS"/>
+  <status value="active"/>
+  <date value="2026-09-28T17:50:50.596-03:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério da Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="cgiis.datasus@saude.gov.br"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <kind value="instance"/>
+  <software>
+    <name value="RNDS FHIR R4 HML Server"/>
+    <version value="5.6.0"/>
+  </software>
+  <implementation>
+    <description value="HAPI FHIR"/>
+    <url value="https://ehr-services-hmg.saude.gov.br/1.15/api/fhir/r4"/>
+  </implementation>
+  <fhirVersion value="4.0.1"/>
+  <format value="application/fhir+xml"/>
+  <format value="xml"/>
+  <format value="application/fhir+json"/>
+  <format value="json"/>
+  <rest>
+    <mode value="server"/>
+    <resource>
+      <type value="Bundle"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+    </resource>
+    <resource>
+      <type value="CodeSystem"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/CodeSystem"/>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <operation>
+        <name value="lookup"/>
+        <definition value="https://ehr-services-hmg.saude.gov.br/1.15/api/fhir/r4/OperationDefinition/CodeSystem-t-lookup"/>
+      </operation>
+    </resource>
+    <resource>
+      <type value="Composition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="Composition:author"/>
+      <searchInclude value="Composition:subject"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="Who and/or what the composition is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="_bookmark"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="_count"/>
+        <type value="number"/>
+      </searchParam>
+      <operation>
+        <name value="document"/>
+        <definition value="https://ehr-services-hmg.saude.gov.br/1.15/api/fhir/r4/OperationDefinition/Composition-i-document"/>
+      </operation>
+    </resource>
+    <resource>
+      <type value="Consent"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+    </resource>
+    <resource>
+      <type value="List"/>
+      <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRListaTimeline-1.0"/>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchInclude value="List:subject"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="code"/>
+        <type value="token"/>
+        <documentation value="What the purpose of this list is"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="If all resources have the same subject"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="OperationDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/OperationDefinition"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+    </resource>
+    <resource>
+      <type value="Organization"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="Any identifier for the organization (not the accreditation issuer's identifier)"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Patient"/>
+      <profile value="http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-patient-1.0"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="_bookmark"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="_count"/>
+        <type value="number"/>
+      </searchParam>
+      <searchParam>
+        <name value="birthdate"/>
+        <type value="date"/>
+        <documentation value="The patient's date of birth"/>
+      </searchParam>
+      <searchParam>
+        <name value="birthplace"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="gender"/>
+        <type value="string"/>
+        <documentation value="Gender of the patient"/>
+      </searchParam>
+      <searchParam>
+        <name value="mothers-name"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <type value="string"/>
+        <documentation value="A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="A patient identifier"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Practitioner"/>
+      <profile value="http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitioner-1.0"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="A practitioner's Identifier"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="PractitionerRole"/>
+      <profile value="http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitionerrole-1.0"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="PractitionerRole:organization"/>
+      <searchInclude value="PractitionerRole:practitioner"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="organization"/>
+        <type value="reference"/>
+        <documentation value="The identity of the organization the practitioner represents / acts on behalf of"/>
+      </searchParam>
+      <searchParam>
+        <name value="practitioner"/>
+        <type value="reference"/>
+        <documentation value="Practitioner that is able to provide the defined services for the organization"/>
+      </searchParam>
+    </resource>
+  </rest>
+</CapabilityStatement>

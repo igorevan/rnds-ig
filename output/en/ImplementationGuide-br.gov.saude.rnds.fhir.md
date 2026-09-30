@@ -31,7 +31,7 @@
   "title" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T16:52:40-03:00",
+  "date" : "2026-09-30T17:33:01-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -695,6 +695,21 @@
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CapabilityStatement"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CapabilityStatement-CapabilityStatement-EHRServices.html"
+      }],
+      "reference" : {
+        "reference" : "CapabilityStatement/CapabilityStatement-EHRServices"
+      },
+      "name" : "CapabilityStatement do EHR-Services da RNDS",
+      "description" : "CapabilityStatement do EHR-Services da RNDS"
+    }],
     "page" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -744,6 +759,19 @@
         }],
         "nameUrl" : "integracao.html",
         "title" : "Integração",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "artifacts.html"
+        }],
+        "nameUrl" : "artifacts.html",
+        "title" : "Artefatos",
         "generation" : "html"
       },
       {

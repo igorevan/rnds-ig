@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="CapabilityStatement-EHRServices"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ehr"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.1"/>
+  </extension>
+  <url value="https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices"/>
+  <version value="1.0.0-release"/>
+  <name value="CapabilityStatement-EHRServices"/>
+  <title value="CapabilityStatement do EHR-Services da RNDS"/>
+  <status value="active"/>
+  <date value="2026-09-28T17:50:50.596-03:00"/>
+  <publisher value="Ministério da Saúde do Brasil"/>
+  <contact>
+    <name value="Ministério da Saúde do Brasil"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.saude.gov.br"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="cgiis.datasus@saude.gov.br"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <kind value="instance"/>
+  <software>
+    <name value="RNDS FHIR R4 HML Server"/>
+    <version value="5.6.0"/>
+  </software>
+  <implementation>
+    <description value="HAPI FHIR"/>
+    <url value="https://ehr-services-hmg.saude.gov.br/1.15/api/fhir/r4"/>
+  </implementation>
+  <fhirVersion value="4.0.1"/>
+  <format value="application/fhir+xml"/>
+  <format value="xml"/>
+  <format value="application/fhir+json"/>
+  <format value="json"/>
+  <rest>
+    <mode value="server"/>
+    <resource>
+      <type value="Bundle"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+    </resource>
+    <resource>
+      <type value="CodeSystem"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/CodeSystem"/>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <operation>
+        <name value="lookup"/>
+        <definition value="https://ehr-services-hmg.saude.gov.br/1.15/api/fhir/r4/OperationDefinition/CodeSystem-t-lookup"/>
+      </operation>
+    </resource>
+    <resource>
+      <type value="Composition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="Composition:author"/>
+      <searchInclude value="Composition:subject"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="Who and/or what the composition is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="_bookmark"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="_count"/>
+        <type value="number"/>
+      </searchParam>
+      <operation>
+        <name value="document"/>
+        <definition value="https://ehr-services-hmg.saude.gov.br/1.15/api/fhir/r4/OperationDefinition/Composition-i-document"/>
+      </operation>
+    </resource>
+    <resource>
+      <type value="Consent"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+    </resource>
+    <resource>
+      <type value="List"/>
+      <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRListaTimeline-1.0"/>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchInclude value="List:subject"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="code"/>
+        <type value="token"/>
+        <documentation value="What the purpose of this list is"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="If all resources have the same subject"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="OperationDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/OperationDefinition"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+    </resource>
+    <resource>
+      <type value="Organization"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="Any identifier for the organization (not the accreditation issuer's identifier)"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Patient"/>
+      <profile value="http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-patient-1.0"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="_bookmark"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="_count"/>
+        <type value="number"/>
+      </searchParam>
+      <searchParam>
+        <name value="birthdate"/>
+        <type value="date"/>
+        <documentation value="The patient's date of birth"/>
+      </searchParam>
+      <searchParam>
+        <name value="birthplace"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="gender"/>
+        <type value="string"/>
+        <documentation value="Gender of the patient"/>
+      </searchParam>
+      <searchParam>
+        <name value="mothers-name"/>
+        <type value="string"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <type value="string"/>
+        <documentation value="A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="A patient identifier"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Practitioner"/>
+      <profile value="http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitioner-1.0"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="*"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="A practitioner's Identifier"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="PractitionerRole"/>
+      <profile value="http://rnds.saude.gov.br/fhir/r4/StructureDefinition/rnds-practitionerrole-1.0"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <searchInclude value="PractitionerRole:organization"/>
+      <searchInclude value="PractitionerRole:practitioner"/>
+      <searchRevInclude value="Composition:subject"/>
+      <searchRevInclude value="List:subject"/>
+      <searchRevInclude value="PractitionerRole:organization"/>
+      <searchRevInclude value="PractitionerRole:practitioner"/>
+      <searchParam>
+        <name value="organization"/>
+        <type value="reference"/>
+        <documentation value="The identity of the organization the practitioner represents / acts on behalf of"/>
+      </searchParam>
+      <searchParam>
+        <name value="practitioner"/>
+        <type value="reference"/>
+        <documentation value="Practitioner that is able to provide the defined services for the organization"/>
+      </searchParam>
+    </resource>
+  </rest>
+</CapabilityStatement>
