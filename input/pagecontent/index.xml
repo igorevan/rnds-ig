@@ -101,6 +101,17 @@
         </td>
       </tr>
       <tr>
+        <td><code><strong>REL</strong></code><br />Resultado de Exame Laboratorial</td>
+        <td><a
+            href="https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-8.276-de-29-de-setembro-de-2025-659605663">Portaria
+            GM/MS nº 8.276, de 29 de setembro de 2025</a></td>
+        <td>
+          <code>
+            <a href="https://fhir.saude.gov.br/rel/">https://fhir.saude.gov.br/rel/</a>
+          </code>
+        </td>
+      </tr>
+      <tr>
         <td><code><strong>SA</strong></code><br />Sumário de Alta</td>
         <td><a
             href="https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-8.026-de-27-de-agosto-de-2025-651423099">Portaria
