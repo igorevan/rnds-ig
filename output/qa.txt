@@ -2,8 +2,8 @@ RNDSIG : Validation Results
 =========================================
 
 err = 0, warn = 0, info = 0
-IG Publisher Version: 2.3.4
-Generated Mon Oct 05 14:47:36 BRT 2026. FHIR version 4.0.1 for br.gov.saude.rnds.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/rnds)
+IG Publisher Version: 2.3.5
+Generated Wed Oct 07 14:16:22 BRT 2026. FHIR version 4.0.1 for br.gov.saude.rnds.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/rnds)
  Build Errors : 0 / 0 / 0
  /home/igor/rnds-ig/input/myig : 0 / 0 / 2
  /home/igor/rnds-ig/input/resources/CapabilityStatement-EHRServices : 0 / 7 / 2

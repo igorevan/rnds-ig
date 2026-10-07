@@ -1,87 +1,28 @@
 {
-  "date" : "Mon, 05 Oct, 2026 14:46:29 -0300",
+  "date" : "Wed, 07 Oct, 2026 14:15:12 -0300",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [{
     "name" : "/input/myig.xml",
     "size" : 4919,
     "processes" : [{
       "activity" : "load",
-      "start" : 13,
-      "length" : 11
+      "start" : 12,
+      "length" : 10
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 13,
-      "length" : 11
+      "start" : 12,
+      "length" : 8
     },
     {
       "activity" : "generateNarratives",
-      "start" : 13,
-      "length" : 45
+      "start" : 12,
+      "length" : 64
     },
     {
       "activity" : "validate",
-      "start" : 20,
-      "length" : 6336
-    },
-    {
-      "activity" : "generate1",
-      "start" : 26,
-      "length" : 125
-    },
-    {
-      "activity" : "generate2",
-      "start" : 55,
-      "length" : 82
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 62,
-      "length" : 3
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 66,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "input/resources/CapabilityStatement-EHRServices.json",
-    "size" : 9377,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 13,
-      "length" : 5
-    },
-    {
-      "activity" : "load",
-      "start" : 13,
-      "length" : 11
-    },
-    {
-      "activity" : "load-configure",
-      "start" : 13,
-      "length" : 1
-    },
-    {
-      "activity" : "scan",
-      "start" : 13,
-      "length" : 1
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 13,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 13,
-      "length" : 349
-    },
-    {
-      "activity" : "validate",
-      "start" : 13,
-      "length" : 6104
+      "start" : 19,
+      "length" : 7771
     },
     {
       "activity" : "scanForUsageStats",
@@ -90,18 +31,72 @@
     },
     {
       "activity" : "generate1",
-      "start" : 26,
+      "start" : 27,
       "length" : 70
     },
     {
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 94
+      "start" : 59,
+      "length" : 76
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 62,
+      "start" : 66,
       "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 70,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "input/resources/CapabilityStatement-EHRServices.json",
+    "size" : 9377,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 12,
+      "length" : 6
+    },
+    {
+      "activity" : "load",
+      "start" : 12,
+      "length" : 11
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 12,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 12,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 12,
+      "length" : 283
+    },
+    {
+      "activity" : "validate",
+      "start" : 13,
+      "length" : 6044
+    },
+    {
+      "activity" : "generate1",
+      "start" : 27,
+      "length" : 69
+    },
+    {
+      "activity" : "generate2",
+      "start" : 59,
+      "length" : 125
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 66,
+      "length" : 2
     }]
   },
   {
@@ -109,7 +104,7 @@
     "size" : 1174,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
+      "start" : 59,
       "length" : 1
     }]
   },
@@ -118,8 +113,8 @@
     "size" : 10763,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 38
+      "start" : 59,
+      "length" : 29
     }]
   },
   {
@@ -127,8 +122,8 @@
     "size" : 458,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 25
+      "start" : 59,
+      "length" : 17
     }]
   },
   {
@@ -136,8 +131,8 @@
     "size" : 771,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 19
+      "start" : 59,
+      "length" : 17
     }]
   },
   {
@@ -145,8 +140,8 @@
     "size" : 1340,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 17
+      "start" : 59,
+      "length" : 18
     }]
   },
   {
@@ -154,8 +149,8 @@
     "size" : 44091,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 34
+      "start" : 59,
+      "length" : 35
     }]
   },
   {
@@ -163,8 +158,8 @@
     "size" : 9098,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 20
+      "start" : 59,
+      "length" : 22
     }]
   },
   {
@@ -172,8 +167,8 @@
     "size" : 967,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
-      "length" : 19
+      "start" : 59,
+      "length" : 18
     }]
   },
   {
@@ -206,16 +201,16 @@
   },
   {
     "name" : "/input/images/portalServicos.png",
-    "size" : 123945,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 55,
-      "length" : 1
-    }]
+    "size" : 123945
   },
   {
     "name" : "/input/images/consultaIDLocal.png",
-    "size" : 127465
+    "size" : 127465,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 59,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/images/gerenciadorCredenciais.png",
@@ -234,7 +229,7 @@
     "size" : 615672,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 55,
+      "start" : 59,
       "length" : 1
     }]
   },
