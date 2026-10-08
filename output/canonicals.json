@@ -1,4 +1,18 @@
 [{
+  "id" : "RNDSErros",
+  "type" : "CodeSystem",
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros",
+  "version" : "1.0.0-release",
+  "name" : "RNDSErros"
+},
+{
+  "id" : "RNDSErros",
+  "type" : "ValueSet",
+  "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/RNDSErros",
+  "version" : "1.0.0-release",
+  "name" : "RNDSErrosVS"
+},
+{
   "id" : "CapabilityStatement-EHRServices",
   "type" : "CapabilityStatement",
   "url" : "https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices",

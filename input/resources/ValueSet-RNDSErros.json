@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "RNDSErros",
+  "url": "http://www.saude.gov.br/fhir/r4/ValueSet/RNDSErros",
+  "version": "1.0.0",
+  "name": "RNDSErrosVS",
+  "title": "Mensagens e Erros da RNDS",
+  "status": "active",
+  "experimental": false,
+  "publisher": "Ministério da Saúde - Brasil",
+  "description": "Conjunto de códigos de mensagens e erros apresentados pela RNDS.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros"
+      }
+    ]
+  }
+}

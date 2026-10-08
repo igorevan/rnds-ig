@@ -1,3 +1,11 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [{
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/RNDSErros",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "RNDSErrosVS",
+    "title" : "Mensagens e Erros da RNDS",
+    "description" : "Conjunto de códigos de mensagens e erros apresentados pela RNDS.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros"]
+  }]
 }

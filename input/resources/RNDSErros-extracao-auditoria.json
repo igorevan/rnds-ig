@@ -1,0 +1,2010 @@
+[
+  {
+    "code": "MSG001",
+    "message": "O CNS {0} não foi encontrado na base.",
+    "description": "Necessário validar o CNS informado.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG002",
+    "message": "Tipo de documento inválido para pesquisa do tipo list.",
+    "description": "O documento informado está inválido. Verifique o documento e os parâmetros de pesquisa.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG003",
+    "message": "Usuário sem consentimento para acessar o documento {0}.",
+    "description": "O consentimento não foi dado para o acesso ao documento enviado.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG004",
+    "message": "Usuário sem consentimento para acessar a timeline.",
+    "description": "O consentimento não foi dado para o acesso à timeline.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG005",
+    "message": "O documento {0} não foi encontrado na base.",
+    "description": "Não existe este documento na base RNDS.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG006",
+    "message": "O documento {0} não foi encontrado na base.",
+    "description": "Confirmação de exclusão efetuada",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG007",
+    "message": "O documento referenciado para substituição no campo 'relatesTo' possui um 'identifier' que não é o mesmo do documento que foi substituído.",
+    "description": "Necessário validar o dado do relatesTo com o documento a ser substituído, pois, há divergência de dados.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG008",
+    "message": "O documento {0} referenciado para substituição no 'relatesTo' não foi encontrado na base.",
+    "description": "Necessário validar o documento referenciado, pois, o mesmo não foi localizado na base da RNDS.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG009",
+    "message": "O documento {0} já foi substituído.",
+    "description": "Confirmação da substituição de documento.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, AS, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG010",
+    "message": "Identifier duplicado.",
+    "description": "O identificador fornecido como identifier, já foi registrado anteriormente, é preciso fornecer um novo ou validar o registro enviado anteriormente.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG011",
+    "message": "O documento {0} já existe.",
+    "description": "Necessário validar o CNS informado e o documento informado, pois o documento enviado para este CNS já existe na base RNDS.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG012",
+    "message": "Consentimento não localizado.",
+    "description": "O consentimento para o documento acessado não foi localizado na base da RNDS.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "MSG013",
+    "message": "O campo issued deve ter data posterior a {0}. MM/DD/AAAA",
+    "description": "Necessário validar a data cadastrada no campo issued conforme mensagem.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "MSG014",
+    "message": "O campo effective deve ter data posterior a {0}.",
+    "description": "Necessário validar a data cadastrada no campo effective conforme mensagem.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "MSG015",
+    "message": "Tipo de documento \"{0}\" não suportado.",
+    "description": "Necessário verificar o tipo de documento enviado, pois o tipo enviado não é suportado pela RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "MSG016",
+    "message": "Documento incluído a partir do documento com docId \"{0}\" não pode ser modificado.",
+    "description": "Como o documento foi feito a partir de um docId, não há possibilidade de modificação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "MSG017",
+    "message": "Documento já existe na Base de Dados.",
+    "description": "O documento que está sendo enviado já consta na base da RNDS, portanto, não é permitido novo envio para que não gere duplicidade.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR779",
+    "message": "O medicamento deve ser informado em texto livre no campo \"MedicationRequest.note\"",
+    "description": "O erro ocorre quando o documento FHIR é enviado e o campo MedicationRequest.note no perfil http://hl7.org/fhir/StructureDefinition/MedicationRequest está vazio.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR780",
+    "message": "Os campos de periodicidade (MedicationRequest.dosageInstruction.timing.repeat.extension:period.extension:periodUnit e ou MedicationRequest.dosageInstruction.timing.repeat.extension:period.extension:period) devem ser preenchidos em caso de dose periódica ou contínua (MedicationRequest.dosageInstruction.timing.repeat.countMax).",
+    "description": "A validação é realizada quando a extensão do perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses e a combinação das extensões period e periodUnit indicam que, se a quantidade máxima for maior que 1, o intervalo entre as doses está incompleto.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR781",
+    "message": "Os campos de periodicidade (MedicationRequest.dosageInstruction.timing.repeat.extension:period e ou MedicationRequest.dosageInstruction.timing.repeat.extension:when) não devem ser preenchidos em caso de dose única (MedicationRequest.dosageInstruction.timing.repeat.countMax).",
+    "description": "O erro ocorre quando os campos MedicationRequest.dosageInstruction.timing.repeat.extension:period e MedicationRequest.dosageInstruction.timing.repeat.extension:when do profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses estão preenchidas para medicamentos onde a dose é única.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR782",
+    "message": "A descrição sobre o uso do medicamento deve ser preenchida no campo \"MedicationRequest.note\" em caso de necessidade (MedicationRequest.dosageInstruction.asNeeded[x]).",
+    "description": "Quando a tag MedicationRequest.dosageInstruction.asNeeded[x] do profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses vem preenchida com a quantidade, este campo torna-se obrigatório o seu preenchimento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR783",
+    "message": "O valor \"{0}\" informado para o atributo \"operator\" nas informações demográficas de indivíduos que não podem ser identificados (paciente ou indivíduo não identificado, unidentifiedPatient.extension:operator) não corresponde a um número de CNS, CPF ou CNES válido ({1}).",
+    "description": "Este erro é lançado quando o CNS informado pelo FHIR não existe dentro do Indice Patient do Elastic, retornando assim a mensagem.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR784",
+    "message": "A modalidade (Encounter.class) \"Atenção à Urgência/Emergência\" ({0}) não pode ter como caráter de atendimento (Encounter.priority.coding) \"Eletivo\" ({1}) ({2}).",
+    "description": "É uma validação de CodeSystem, http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento, onde o CodeSystem http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial definido como 6 não pode ter o Encounter.priority.coding preenchido como 01.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR785",
+    "message": "A modalidade do contato assistencial (Encounter.class) não permite utilizar a fonte de financiamento informada para o procedimento realizado (Encounter.diagnosis:procedure.condition.extension:financier) ({0}).",
+    "description": "No CodeSystem http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0 o campo Encounter.class quando vier preenchido como 01 - Atenção Básica, não pode haver financiamento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR786",
+    "message": "Não podem existir CBOs (Procedure.performer.function) duplicados para um mesmo profissional de saúde (Procedure.performer.actor) no mesmo procedimento ({0}).",
+    "description": "Não podem ser enviados CBOs duplicados de um mesmo profissional de saúde (identificado pelo CNS fornecido) nos campos Procedure.performer.function e Procedure.performer.actor no mesmo registro de procedimento ({0}).",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR787",
+    "message": "Não pode ser informado o(s) mesmo(s) código(s) ({0}) do(s) diagnóstico(s) principal(ais) (Encounter.reasonReference:primaryDiagnosis) para diagnósticos secundários (Encounter.diagnosis:diagnosis) no mesmo contato assistencial ({1}).",
+    "description": "Validação de Diagnóstico Principal e Secundários, quando a terminologia de diagnóstico possuir marcador de diagnóstico principal, os diagnósticos secundários devem ser diferentes do diagnóstico principal. Está mensagem era exibida para o Conjunto Mínimo de Dados antes da unificação dos profiles: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0 e http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10AvaliadoANS-1.0.0",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR788",
+    "message": "Não podem existir vários diagnósticos secundários (Encounter.diagnosis:diagnosis) com o mesmo código (Condition.code.coding: {0}) no mesmo contato assistencial ({1}).",
+    "description": "Quando são enviados mais de um diagnóstico secundário Encounter.diagnosis:diagnosis, os códigos enviados não podem ser duplicados para o campo Condition.code.coding, caracterizando duplicidade de diagnóstico.",
+    "guidance": "",
+    "document": "",
+    "label": "Diagnóstico secundário duplicado"
+  },
+  {
+    "code": "ERR789",
+    "message": "Não podem existir vários procedimentos com o mesmo código (Procedure.code.coding: {0}) e data de realização (Procedure.performedDateTime: {1}) no mesmo contato assistencial ({2}).",
+    "description": "Validação de Procedimentos e data, em um registro de contato assistencial não será permitido informar procedimentos (ações) iguais para a mesma data de realização.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR790",
+    "message": "Para a fonte de financiamento informada (Encounter.diagnosis:procedure.condition.extension:financier) é obrigatório informar o profissional responsável (Procedure.performer) pelo procedimento ({0}).",
+    "description": "Obrigatoriedade de identificação do profissional, informação do CNS do profissional deverá ser obrigatória para cada CBO informado quando o financiamento for selecionado para o SUS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR791",
+    "message": "Para a modalidade assistencial (Composition.category.coding.code) informada ({0}) o período entre datas de admissão (Encounter.period.start) e desfecho (Encounter.period.end) deve ser igual ou maior a 1 (um) dia {1}.",
+    "description": "Caso seja informado em modalidade assistencial “04 - Atenção Hospitalar” deve-se validar se a data do desfecho menos a data de admissão é maior ou igual a 1 dia, exceto nos casos em que o desfecho for igual a “06 - Óbito” ou “09 - Transferência.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR792",
+    "message": "Para a modalidade assistencial (Composition.category.coding.code) informada ({0}) o período entre datas de admissão (Encounter.period.start) e desfecho (Encounter.period.end) deve ser igual ou maior a 1 (um) dia {1}.",
+    "description": "Caso seja informado em modalidade assistencial “04 - Atenção Hospitalar” deve-se validar se a data do desfecho menos a data de admissão é maior ou igual a 1 dia, exceto nos casos em que o desfecho for igual a “06 - Óbito” ou “09 - Transferência.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR793",
+    "message": "Para a modalidade assistencial (Composition.category.coding.code) informada ({0}) as datas de admissão (Encounter.period.start) e desfecho (Encounter.period.end) devem ser iguais {1}.",
+    "description": "Caso seja informada a modalidade assistencial “01 - Atenção básica” ou “07 - Ambulatorial especializado” a data de admissão e data do desfecho devem ser iguais.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR794",
+    "message": "A data de realização do procedimento (Procedure.performedDateTime) deve ser igual a data de admissão (Encounter.period.start) para a modalidade (Encounter.class.code) {0}{1}.",
+    "description": "A data de realização do procedimento Procedure.performedDateTime deve ser igual a data de admissão Encounter.period.start informada na modalidade do Contato Assistencial: [01 - Atenção básica | 07 - Ambulatorial Especializado].",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR795",
+    "message": "A data de desfecho (Encounter.period.end) não pode ser informada para o tipo de desfecho (Encounter.hospitalization.dischargeDisposition.coding) \"{0}\" ({1}).",
+    "description": "Para os códigos: 01 - Atenção básica e 07 - Ambulatorial especializado",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR796",
+    "message": "A data de desfecho (Encounter.period.end) não pode ser inferior a data de realização do procedimento (Procedure.performedDateTime){0}.",
+    "description": "Valida se a data de desfecho está inferior à data de realização do procedimento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR797",
+    "message": "A data de admissão (Encounter.period.start) não pode ser superior a data de realização do procedimento (Procedure.performedDateTime){0}.",
+    "description": "Valida se a data de admissão está superior a data de realização do procedimento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR798",
+    "message": "A data de desfecho (Encounter.period.end) não pode ser superior a data de óbito do indivíduo (Encounter.subject, Patient.deceased).",
+    "description": "Valida se existe data de óbito para o paciente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR799",
+    "message": "A data de desfecho (Encounter.period.end) não pode ser inferior a data de nascimento do indivíduo (Encounter.subject, Patient.birthDate).",
+    "description": "Valida se o paciente não possui uma data de nascimento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR800",
+    "message": "A data de admissão (Encounter.period.start) não pode ser superior a data de óbito do indivíduo (Encounter.subject, Patient.deceased).",
+    "description": "Valida se a data de procedimento informada é superior a data de óbito do paciente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR801",
+    "message": "A data de admissão (Encounter.period.start) não pode ser inferior a data de nascimento do indivíduo (Encounter.subject, Patient.birthDate).",
+    "description": "Valida se a data de procedimento está anterior à data de nascimento do paciente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR802",
+    "message": "Código \"{0}#{1}\" não definido para a competência/versão {2} (\"{3}\").",
+    "description": "Validação do código do procedimento não está de acordo com a competência.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR803",
+    "message": "Combinação de tipo de exame (Observation.code) e interpretação (Observation.interpretation) não permitida (\"{0}\").",
+    "description": "Necessário verificar se a combinação entre tipo de exame e interpretações está correta. Necessário ter: Um profile definido, ou seja, não pode ser padrão. Tipo de exame. Interpretação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR804",
+    "message": "Combinação de tipo de exame (Observation.code) e resultado (Observation.valueCodeableConcept) não permitida (\"{0}\").",
+    "description": "Necessário verificar a combinação entre tipo de exame e tipo de resultado. Tem que ter um profile definido, ou seja, não pode ser padrão. Tipo de exame. Resultado qualitativo.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR805",
+    "message": "Combinação de tipo de exame (Observation.code) e patógeno (Observation.extension:pathogen) não permitida (\"{0}\").",
+    "description": "Necessário verificar a combinação entre tipo de exame e patógeno é permitida. Tem que ter um profile definido, ou seja, não pode ser padrão. Tipo de exame. A extensão de patógeno.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR806",
+    "message": "O campo \"Observation.interpretation\" não foi informado (\"{0}\").",
+    "description": "Necessário verificar se foi informado o campo Observation#getValueQuantity() juntamente com o campo Observation#getInterpretation().",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR807",
+    "message": "O campo \"timestamp\" do \"Bundle\" não pode ter data anterior à data atual.",
+    "description": "Deve-se usar a data atual para o envio. Caso seja enviado datas no passado, a RNDS recusará.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR808",
+    "message": "O campo \"timestamp\" do \"Bundle\" não pode ter data posterior à data atual.",
+    "description": "Deve-se usar a data atual para o envio. Caso seja enviado datas no passado, a RNDS recusará.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR809",
+    "message": "O campo \"Observation.effective\" deve ter data posterior a {0} (\"{1}\").",
+    "description": "Necessário verificar a data mínima para o campo Observation#getEffectiveDateTimeType() ou Observation#getEffectiveInstantType()}.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR810",
+    "message": "O campo \"Observation.issued\" deve ter data posterior a {0} (\"{1}\").",
+    "description": "Necessário verificar a data mínima para o campo Observation#getIssued().",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR811",
+    "message": "Apenas o Composition \"raiz\" (aquele que não é referenciado por outros elementos no Bundle) pode possuir o atributo relatesTo (referente ao item \"{0}\").",
+    "description": "Necessário verificar se apenas o Composition \"raiz\" possui o atributo relatesTo.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR812",
+    "message": "O documento pode ter apenas um Composition \"raiz\" (aquele que não é referenciado por outros elementos no Bundle).",
+    "description": "Necessário validar se o Composition possui mais que 1 id.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR813",
+    "message": "O documento deve ter pelo menos um Composition \"raiz\" (aquele que não é referenciado por outros elementos no Bundle).",
+    "description": "Necessário validar se o Composition está nulo ou vazio.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR814",
+    "message": "O documento {0} possui um tipo de documento FHIR inválido e não pode ser processado: {1}.",
+    "description": "Necessário validar se a informação está preenchida e é maior que 0.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR815",
+    "message": "Code \"{0}\" inativo (referente ao item \"{1}\").",
+    "description": "Necessário validar se o grupo de atendimento está inativo. Caso esteja inativo, a imunização é rejeitada.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR816",
+    "message": "Devem ser informados os dados da pesquisa clínica registrada na ANVISA que realizou a administração do imunobiológico (referente ao item \"{0}\").",
+    "description": "Necessário validar se a imunização está relacionada a um estudo clínico para o desenvolvimento de imunobiológico e possui as informações para identificar a pesquisa clínica. Uma imunização está relacionada a um estudo clínico quando possuir o profile FhirProperties.Profile#BRImunobiologicoAdministrado_2_0 BRImunobiologicoAdministrado_2_0 e o valor da extensão FhirProperties.Extension#BREstrategiaVacinacao BREstrategiaVacinacao for \"pesquisa>\" (de acordo com o Code System FhirProperties.CodeSystem#BREstrategiaVacinacao BREstrategiaVacinacao}). Quando uma imunização está relacionada a um estudo clínico a extensão FhirProperties.Extension#BREstrategiaVacinacaoPesquisa BREstrategiaVacinacaoPesquisa tem que ter sido informada (os campos obrigatórios para a extensão são verificados pelo validador).",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR817",
+    "message": "Só é permitida no máximo {0} imunizações para o imunobiológico de código \"{1}\" por paciente e por UF.",
+    "description": "De acordo com as regras estipuladas para cada imunobiológico de código \"{ }\" é definida a quantidade máxima de imunizações por paciente e por UF.",
+    "guidance": "Verifique se a imunização não extrapola o limite de imunizações por UF e por imunobiológico.",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR818",
+    "message": "Configurações de validações FHIR inválidas.",
+    "description": "Necessário validar os códigos possíveis com base no CodeSystem de cada tipo de Profile e Documento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR819",
+    "message": "Código de imunobiológico informado \"{0}\" é inválido (referente ao item \"{1}\").",
+    "description": "Necessário validar se existem códigos secundários iguais para o tipo de documento de vacina.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR820",
+    "message": "Profissional {0} não autorizado, pois não faz parte da equipe que atende ao paciente com CNS {1}. deve ser maior que zero ({0}).",
+    "description": "Necessário validar se o índice Practitioner existe o Paciente na junção do índice Patient.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR821",
+    "message": "Profissional {0} não autorizado, pois não possui CRM.",
+    "description": "Necessário validar se o índice Practitioner existe a tag CRM.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR822",
+    "message": "O identifier pesquisado apresentou inconsistência de integridade na hierarquia de substituições de documentos (relatesTo) e não pode ser pesquisado.",
+    "description": "Necessário validar a hierarquia na tag relatesTo.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR823",
+    "message": "Informação referente ao item \"{0}\" já existe no repositório. O ID existente é {1}.",
+    "description": "A RNDS não permite registros duplicados. Desta forma, a mensagem de erro informa que a informação que está sendo inserida já está na RNDS e não poderá ser incluída novamente.",
+    "guidance": "O registo da informação já está cadastrado no banco de dados. Necessário validar se o registro está em duplicidade no sistema de origem.",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR824",
+    "message": "Item \"{0}\" repetido na requisição.",
+    "description": "Necessário validar se a informação está se repetindo dentro da imunização.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR825",
+    "message": "Para realizar a exclusão, o status do documento deve ser \"{0}\".",
+    "description": "Necessário validar se o documento está com status de final. Em final não é possível a exclusão. É preciso alterar o status para DELETED.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR826",
+    "message": "Você não possui autorização para excluir documentos desse sistema de origem: {0}.",
+    "description": "Necessário verificar se o sistema solicitante tem permissão para realizar o Delete do documento FHIR.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR827",
+    "message": "Documento com o ID \"{0}\" não encontrado.",
+    "description": "Necessário verificar se o documento possui uma auditoria para realizar o delete, pois, esta mensagem ocorre quando não é encontrado o documento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR828",
+    "message": "Ocorreu um erro ao tentar preparar a mensagem para agendamento de processamento (conversão doc FHIR original).",
+    "description": "Este erro está inativado no código.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR829",
+    "message": "Não encontrado.",
+    "description": "Esse erro ocorre quando a aplicação apresenta um erro não catalogado na RNDS. Necessário acionar o suporte.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR830",
+    "message": "A data deve ser igual ou menor que a data atual ({0}).",
+    "description": "A data informada no campo Immunization.occurrenceDateTime deve ser igual ou menor que a data atual, no momento do envio do registro.",
+    "guidance": "",
+    "document": "",
+    "label": "Data futura inválida"
+  },
+  {
+    "code": "ERR831",
+    "message": "Tipo de referência inválida para profissional de saúde: {0}.",
+    "description": "Necessário verificar se o Performer.actor é válido.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR832",
+    "message": "{0} não encontrado ({1}).",
+    "description": "Caso não tenha sido informado o \"performer\" o \"reportOrigin\" tem que indicar se se trata de uma transcrição de caderneta de vacinação.",
+    "guidance": "Necessário verificar algum dado que é obrigatório apesar de ser definido como opcional no profile.",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR833",
+    "message": "Os dados de autenticação informados são inválidos! Sistema solicitante {0} não autorizado!",
+    "description": "Necessário verificar credenciais de INTEGRADORES na base do SCAB.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR834",
+    "message": "Não foi possível ler o MANIFEST.MF",
+    "description": "A aplicação não conseguiu ler arquivo de configuração denominada MANIFEST.MF.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR835",
+    "message": "Token gov.br não autorizado! Usuário do token não possui todos os selos de confiabilidade cadastrais necessários.",
+    "description": "Falha na verificação de selos gov.br. token.getSub(): {} | selosPrincipal: {} | audience.getSelos(): {}",
+    "guidance": "Verifique o perfil/selo do gov.br exigido e o utilizado.",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR836",
+    "message": "Não foi possível validar o token gov.br. Resposta da API de Autenticação gov.br não condiz com contrato de serviço.",
+    "description": "HTTP CODE não tratado devido a inconsistência entre requisição e tipo de requisições aprovada para o contrato RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR837",
+    "message": "Não foi possível validar o token gov.br. Erro ao processar resposta da API de Autenticação gov.br.",
+    "description": "Erro de comunicação com o gov.br. Não se trata de erro RNDS, portanto, não é necessário acionar o suporte MS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR838",
+    "message": "Não foi possível validar o token gov.br. Tempo máximo de comunicação atingido ao tentar estabelecer comunicação com API de Autenticação gov.br.",
+    "description": "Timeout de comunicação com o gov.br. Não se trata de erro RNDS, portanto, não é necessário acionar o suporte MS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR839",
+    "message": "Não foi possível validar o token gov.br. A API de Autenticação gov.br não está disponível.",
+    "description": "Falha de comunicação com o gov.br. Não se trata de erro RNDS, portanto, não é necessário acionar o suporte MS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR840",
+    "message": "Não foi possível validar o token gov.br. Erro ao tentar estabelecer comunicação com a API de Autenticação gov.br.",
+    "description": "Falha de comunicação com o gov.br. Não se trata de erro RNDS, portanto, não é necessário acionar o suporte MS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR841",
+    "message": "Identifier inválido: system=[{0}], value=[{1}]",
+    "description": "Necessário validar se existe um identifier vindo do certificado gerado pelo SCAB.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR842",
+    "message": "Acesso à API de Validação de Perfis não autorizada.",
+    "description": "Necessário validar a informação com base no identifier e verificar os dados com o índice do Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR843",
+    "message": "Resposta da API de Validação de Perfis não condiz com contrato de serviço",
+    "description": "Trata-se de erro genérico gerado pelo serviço REST.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR844",
+    "message": "Erro ao processar resposta da API de Validação de Perfis.",
+    "description": "Necessário efetuar nova validação do bundle da credencial.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR845",
+    "message": "Tempo máximo de comunicação atingido ao tentar comunicar com a API de Validação de Perfis",
+    "description": "Timeout da comunicação por instabilidade ou lentidão da rede.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR846",
+    "message": "API de Validação de Perfis não está disponível",
+    "description": "Trata-se de indisponibilidade da API.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR847",
+    "message": "Erro ao tentar estabelecer comunicação com a API de Validação de Perfis",
+    "description": "Trata-se de indisponibilidade da API.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR848",
+    "message": "O parâmetro 'bookmark' utilizado para a pesquisa paginada é inválido ou expirou.",
+    "description": "Necessário verificar a paginação utilizando o ElasticSearch.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR849",
+    "message": "Para realizar essa pesquisa é necessário informar uma das combinações mínimas de parâmetros: Opção A - dois parâmetros principais (name, mothers-name); Opção B - um parâmetro principal (name, mothers-name) e um parâmetro secundário (birthdate, birthplace).",
+    "description": "Necessário verificar se atende a necessidade de ter pelo menos 1 parâmetro principal presente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR850",
+    "message": "O parâmetro {0} é inválido, {1}.",
+    "description": "Necessário atender os parâmetros do código IBGE que tem 6 caracteres, somente números.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR851",
+    "message": "O parâmetro {0} é inválido, pois não é permitido nenhum tipo de modificador ou qualificador.",
+    "description": "Necessário atender à exigência de não usar modifier.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR852",
+    "message": "É obrigatório informar pelo menos os campos 'system' e 'code' para executar essa operação.",
+    "description": "Necessário validar os filtros obrigatórios.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR853",
+    "message": "Acesso à API de Notificação não autorizada",
+    "description": "Necessário validar a permissão para acessar a API de Notificação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR854",
+    "message": "Resposta da API de Notificação não condiz com contrato de serviço",
+    "description": "HTTP CODE não tratado devido a inconsistência entre requisição e tipo de requisições aprovada para o contrato RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR855",
+    "message": "Erro ao processar resposta da API de Notificação",
+    "description": "Erro de comunicação da API.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR856",
+    "message": "Tempo máximo de comunicação atingido ao tentar comunicar com API de Notificação",
+    "description": "Timeout da API de Notificação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR857",
+    "message": "API de Notificação não está disponível",
+    "description": "Falha de comunicação com a API.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR858",
+    "message": "Erro ao tentar estabelecer comunicação com o API de Notificação",
+    "description": "Falha de comunicação com a API Notificação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR859",
+    "message": "Ocorreu um erro ao tentar notificar o paciente da geração do contexto de atendimento",
+    "description": "Falha na hora de enviar uma notificação ao patient.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR860",
+    "message": "Parâmetro 'bookmark' para paginação é inválido",
+    "description": "Falha na consulta paginada do Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR861",
+    "message": "Operação inexistente ou não suportada.",
+    "description": "Trata-se de um tratamento para Bad Request, tratamento de exceção usado para operação não aceita na RNDS - erro HTPP 400.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR862",
+    "message": "O documento {0} possui um perfil inválido e não pode ser processado: {1}",
+    "description": "Necessário validar se o perfil que está contido no documento FHIR, pois há alguma inconsistência impedindo o envio e a gravação na base.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR863",
+    "message": "Banco de dados de cache respondeu à pesquisa com erro, indicando que o índice não existe: {0}",
+    "description": "Foi feita uma consulta de um índice no Elastic que não existe. Necessário validar o índice consultado.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR864",
+    "message": "Ocorreu um erro não esperado ao tentar acessar o banco de dados de cache.",
+    "description": "Falha de comunicação com o Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR865",
+    "message": "Ocorreu um erro ao tentar processar os dados do índice {0} do banco de dados de cache.",
+    "description": "Falha de comunicação com o Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR866",
+    "message": "O identifier informado já foi utilizado para cadastrar outro documento e não pode ser repetido. O id existente é {0}.",
+    "description": "Necessário validar se o identifier já foi utilizado, pois, esta mensagem informa que há duplicidade dos dados.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR867",
+    "message": "O valor informado no campo 'targetReference' do atributo relatesTo é inválido.",
+    "description": "Necessário validar as informações do documento FHIR dentro da tag relatesTo.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR868",
+    "message": "O valor informado no campo 'code' do atributo relatesTo é inválido. Só é permitido o uso do code 'replaces'.",
+    "description": "Necessário validar o tipo de código do documento dentro da tag relatesTo",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR869",
+    "message": "O atributo relatesTo permite apontar apenas 01 (um) documento para substituição.",
+    "description": "Há um limite máximo de relatesTo. Necessário validar se este limite foi excedido.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR870",
+    "message": "Documento referenciado no atributo 'relatesTo' já foi substituído em outra transação e não pode ser substituído novamente.",
+    "description": "Só é permitido realizar uma substituição por um documento FHIR.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR872",
+    "message": "O documento referenciado para substituição no campo 'relatesTo' possui um 'identifier' que não é o mesmo do documento que o substitui. Para substituir um documento, o valor do campo 'identifier' do documento sendo substituído e do documento que o substitui devem ser iguais.",
+    "description": "O identifier tem que ser idêntico ao documento original para que ele consiga realizar a substituição do documento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR875",
+    "message": "Documento para substituição, indicado no atributo relatesTo, não foi encontrado. Confira o id informado para o documento original, seu tipo e a UF onde este documento está armazenado. Só é possível fazer substituição de documentos do mesmo tipo e na mesma UF.",
+    "description": "Necessário validar as informações do campo relatesTo para substituição conforme o documento original a ser substituído.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR876",
+    "message": "O documento consultado referencia um paciente que não está presente na base de dados!",
+    "description": "Necessário validar se o dado está contido no índice Patient.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR877",
+    "message": "É obrigatório informar pelo menos um parâmetro de pesquisa, seja um identificador de Profissional ou um identificador de Organização.",
+    "description": "Necessário validar os filtros para cruzamento de dados dentro do Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR878",
+    "message": "Configuração de GOV.BR Audience {0} inválida!",
+    "description": "Validação do gov.br. Não se trata de erro RNDS. Este erro está relacionado ao gov.br.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR879",
+    "message": "Profissional {0} não autorizado, pois não possui vínculo CBO autorizado no CNES {1} solicitado.",
+    "description": "Necessário validar o Practitioner e sua relação de CNES cadastrado.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR880",
+    "message": "Você não possui autorização para enviar documentos para esta UF.",
+    "description": "Necessário validar o índice cnes_acesso_idx, permissão por estado.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR881",
+    "message": "Você não possui autorização para utilizar esse sistema de origem: {0}.",
+    "description": "Necessário validar o índice cnes_acesso_idx, permissão por sistema.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR882",
+    "message": "O token de certificado usado para autorizar o acesso não é válido. {0}",
+    "description": "Necessário validar o índice cnes_acesso_idx, permissão do token cadastrado vs o que foi enviado no login.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR883",
+    "message": "Os dados de autenticação informados são inválidos! Token com identificador {0} não possui sistemas autorizados!",
+    "description": "Necessário validar o índice cnes_acesso_idx, permissão por sistema.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR884",
+    "message": "Os dados de autenticação informados são inválidos! Token com identificador {0} não autorizado!",
+    "description": "Necessário validar o índice cnes_acesso_idx, permissão utlizando a tag sistemaPermitido = true.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR885",
+    "message": "Code System não encontrado: {0}",
+    "description": "Necessário validar o CodeSystem do tipo de documento REL. Gera o sumário para RESULTADO_EXAME_LABORATORIAL.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR886",
+    "message": "Profile de organização inválido.",
+    "description": "Esse código de profile de organização não foi encontrado da RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR887",
+    "message": "É obrigatório informar o profile ao enviar um documento.",
+    "description": "Necessário validar o documento, pois, não consta um profile válido.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR888",
+    "message": "O tipo de documento EHR é inválido.",
+    "description": "Necessário validar se o tipo de documento está cadastrado na RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR889",
+    "message": "O tipo de lista é obrigatório.",
+    "description": "Necessário validar a lista de códigos se está nula ou vazia.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR890",
+    "message": "O tipo de lista informado é inválido: {0}",
+    "description": "Necessário verificar a autorização para realizar consulta/pesquisa de lista.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR891",
+    "message": "Ocorreu um erro ao tentar gerar o sumário do documento.",
+    "description": "Gerar sumário de acordo com tipo de documento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR892",
+    "message": "O documento {0} possui um sumário inválido e não pode ser processado.",
+    "description": "Necessário validar se o sumário enviado está cadastrado dentro da RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR893",
+    "message": "O tamanho da página deve ter um valor entre 1 e {0}",
+    "description": "Necessário validar o tamanho da paginação dentro do Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR894",
+    "message": "Parâmetro para tamanho de página é inválido.",
+    "description": "Trata-se de validação do Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR895",
+    "message": "CNS {0} do paciente não foi encontrado na base do EHR Data Services!",
+    "description": "Necessário validar na base de consentimento se o CNS está cadastrado.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR896",
+    "message": "Erro de colisão de IDs ao gravar documento no EHR Data Services!",
+    "description": "Necessário validar o envio de IDs que já existem na base.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR897",
+    "message": "Você não possui autorização para cadastrar documentos para os seguintes autores/estabelecimentos: {0}.",
+    "description": "Necessário validar se o certificado enviado tem permissão com o sumário + listas de sistemas permitidos.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR898",
+    "message": "Só é permitido solicitar contexto de atendimento para o mesmo profissional de saúde que é operador dessa requisição.",
+    "description": "Valida se o practitioner é o mesmo do usuário que está sendo atendido.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR899",
+    "message": "Só é permitido solicitar contexto de atendimento para um dos estabelecimentos autorizados para a credencial {0}.",
+    "description": "PROSUS pode gerar para qualquer CNES; demais ficam restritos aos estabelecimentos autorizados.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR900",
+    "message": "Estabelecimento de saúde não encontrado: {0}",
+    "description": "Não existe o estabelecimento dentro do índice organization do Elastic.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR901",
+    "message": "Profissional não encontrado: {0}",
+    "description": "Não existe o profissional dentro do índice Practitioner.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR902",
+    "message": "O CNES do estabelecimento de saúde é obrigatório ao informar o contexto de atendimento.",
+    "description": "Necessário verificar o estabelecimento de saúde.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR903",
+    "message": "O CNS do profissional é obrigatório ao informar o contexto de atendimento.",
+    "description": "Necessário verificar se o profissional de saúde está cadastrado no CNES.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR904",
+    "message": "O CNS do paciente é obrigatório ao informar o contexto de atendimento.",
+    "description": "Verifica se o paciente existe.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR905",
+    "message": "Ocorreu um erro não esperado!",
+    "description": "Erro interno do servidor, erro genérico.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR906",
+    "message": "Profissional {0} não autorizado, pois não possui vínculo CBO autorizado em nenhum dos estabelecimentos autorizados para a credencial {1}.",
+    "description": "Valida credenciais do server na base do SCAB – Portal de Serviços.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR907",
+    "message": "Token gov.br expirado! Gere um novo token gov.br e tente novamente.",
+    "description": "Token de login expirou, necessário gerar um novo.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR908",
+    "message": "Token gov.br inválido!",
+    "description": "Token inválido com base na comunicação com o gov.br",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR909",
+    "message": "Token gov.br não autorizado! Sistema solicitante do token não possui autorização: {0}.",
+    "description": "O token gerado pelo gov.br não está cadastrado dentro do elastic para permitir o login e uso da RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR910",
+    "message": "Não foi possível validar o token gov.br. URL da chave pública está indisponível!",
+    "description": "O token gerado pelo gov.br não está cadastrado dentro do elastic para permitir o login e uso da RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR911",
+    "message": "O token usado para identificar o contexto de atendimento está expirado! Gere um novo token de contexto de atendimento para tentar novamente.",
+    "description": "Período de ativação e validação do token está expirado. Necessário novo acesso e geração de token.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR913",
+    "message": "O documento de id {0} não pertence à instância RNDS requisitada. Para acessá-lo use o seguinte endereço: {1}",
+    "description": "A busca feita pelo documento foi feita em instância incorreta ou com parâmetros incorretos.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR914",
+    "message": "Problema(s)/Diagnóstico(s) Secundário(s) sem existir um Problema/Diagnóstico Principal.",
+    "description": "Não é possível o cadastramento de um secundário sem a existência de um principal.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR915",
+    "message": "Não pode existir mais de um Problema/Diagnóstico Principal.",
+    "description": "Somente é possível a existência de um Problema/Diagnóstico Principal.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR916",
+    "message": "O identificador do sistema de origem é inválido: {0}",
+    "description": "Identificador não cadastrado ou usando parâmetros inválidos.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR917",
+    "message": "Ao enviar um documento é obrigatório informar o identificador do documento no sistema de origem",
+    "description": "Falta a informação “identificador do documento” na origem da informação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR918",
+    "message": "O Tipo de Resource FHIR utilizado para a referência transitória {0} não é suportado",
+    "description": "Resource FHIR fora do padrão RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR919",
+    "message": "Referência transitória não encontrada: {0}",
+    "description": "A referência transitória não foi cadastrada corretamente ou o campo está “null”.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR920",
+    "message": "Referência transitória inválida: {0}",
+    "description": "A referência transitória não foi cadastrada corretamente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR921",
+    "message": "Referência transitória não corresponde à ordem estabelecida de resources FHIR: {0}",
+    "description": "A referência transitória não foi cadastrada corretamente ou o campo está “null”.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR922",
+    "message": "Ao enviar um documento é obrigatório utilizar um Composition como primeiro item da lista de resources FHIR",
+    "description": "No documento enviado, não há o composition ou a ordem de envio não está como composition em primeiro no envio.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR923",
+    "message": "Ao enviar um documento é obrigatório utilizar o Bundle type: {0}",
+    "description": "O Bundle type enviado está incorreto. Necessário validar.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR924",
+    "message": "Ao enviar um documento é obrigatório utilizar o status: {0}",
+    "description": "O status utilizado está incorreto.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR926",
+    "message": "O token usado para identificar o contexto de atendimento é inválido!",
+    "description": "O token está expirado ou não está autorizado para esta identificação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR927",
+    "message": "Erro ao tentar processar agendamento de mensagem com documento: {0}",
+    "description": "O documento está inválido ou a RNDS apresenta alguma instabilidade.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR928",
+    "message": "Erro ao tentar agendar processamento de mensagem com documento",
+    "description": "O documento está inválido ou a RNDS apresenta alguma instabilidade.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR929",
+    "message": "Erro ao preparar mensagem para processamento agendado",
+    "description": "O documento está inválido ou a RNDS apresenta alguma instabilidade.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR930",
+    "message": "Você não possui autorização para realizar esta operação",
+    "description": "Validação do índice cnes_acesso_idx",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR931",
+    "message": "Os dados de autenticação informados são inválidos! {0}",
+    "description": "Validação do índice cnes_acesso_idx",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR932",
+    "message": "Você precisa estar autenticado para realizar esta operação",
+    "description": "Validação do índice cnes_acesso_idx",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR933",
+    "message": "Você não possui consentimento para visualizar os dados solicitados",
+    "description": "Validação do índice cnes_acesso_idx",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR934",
+    "message": "Esse paciente está inativo e não pode ser utilizado",
+    "description": "Validar se o dado está contido no índice Patient.",
+    "guidance": "A situação do paciente está inativa no sistema. Verifique se os dados estão corretos e refaça o processo.",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR935",
+    "message": "Só é permitido pesquisar profissionais usando os identificadores CPF ou CNS.",
+    "description": "É preciso enviar a informação do CNS ou CPF do profissional de saúde para a consulta ser efetuada.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR936",
+    "message": "Só é permitido pesquisar organizações usando o identificador CNES para Estabelecimentos ou CNPJ/CPF para Pessoas Jurídicas ou Profissionais Liberais",
+    "description": "Validação do Practitioner e sua relação de CNES cadastrado.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR937",
+    "message": "Só é permitido pesquisar pacientes usando os identificadores CPF ou CNS",
+    "description": "Validação da regra de negócio RNDS e CADSUS.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR938",
+    "message": "O identificador do consentimento informado é inválido",
+    "description": "Validar dentro da base de consentimento se o CNS está cadastrado.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR939",
+    "message": "Campo code da estrutura FHIR role inválido: {0}",
+    "description": "FHIR fora do padrão RNDS",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR940",
+    "message": "Campo system da estrutura FHIR role inválido: {0}",
+    "description": "FHIR fora do padrão RNDS",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR941",
+    "message": "É obrigatório preencher o campo system ao informar o papel usando a estrutura FHIR role",
+    "description": "O campo está vindo vazio, é necessário informar o papel do autor, conforme a estrutura FHIR role",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR942",
+    "message": "É obrigatório preencher o campo code ao informar o papel usando a estrutura FHIR role.",
+    "description": "O campo está vindo vazio, é necessário informar o código, conforme a estrutura FHIR role.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR943",
+    "message": "É obrigatório informar o papel do ator usando a estrutura de FHIR role",
+    "description": "É obrigatório o preenchimento do campo, mas ele não está sendo enviado.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR944",
+    "message": "Tipo de referência inválida para atores: {0}",
+    "description": "Foi informado uma referência de ator que não consta na lista da CNS, por favor verifique e envie corretamente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR945",
+    "message": "É obrigatório informar pelo menos um ator para o qual se deseja conceder/retirar consentimento",
+    "description": "É obrigatório enviar as informações de pelo menos um ator ao consultar, conceder ou retirar o consentimento do paciente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR946",
+    "message": "Ator não encontrado: {0}",
+    "description": "É necessário enviar as informações do ator.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR947",
+    "message": "Uso de consentimento por período ainda não suportado.",
+    "description": "O período informado está fora do suportado.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR948",
+    "message": "A política de consentimento implícita não pode ser aplicada a esse paciente pois ele se enquadra como VIP e seus dados devem obrigatoriamente passar por consentimento explícito",
+    "description": "Esta regra negocial não se aplica a paciente inseridos na lista VIP.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR949",
+    "message": "Campo code da estrutura FHIR policyRule inválido: {0}",
+    "description": "É necessário enviar as informações de consentimento implícitas e explícitas",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR950",
+    "message": "Campo system da estrutura FHIR policyRule inválido: {0}",
+    "description": "A informação de consentimento do sistema precisa ser enviada",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR951",
+    "message": "É obrigatório preencher o campo System ao informar a política de consentimento usando a estrutura FHIR policyRule.",
+    "description": "A informação da política de consentimento está vindo nula ou vazia, por favor informá-la.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR952",
+    "message": "É obrigatório preencher o campo code ao informar a política de consentimento usando a estrutura FHIR policyRule",
+    "description": "A código da política de consentimento está vindo vazio, por favor informá-lo!",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR953",
+    "message": "Campo code da estrutura FHIR category inválido: {0}",
+    "description": "No código categoria informada não se encontra dentro do rol de códigos de consentimento.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR954",
+    "message": "Campo system da estrutura FHIR category inválido: {0}",
+    "description": "A informação do sistema não se encontra dentro do rol de consentimentos.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR955",
+    "message": "É obrigatório preencher o campo system ao informar a categoria usando a estrutura FHIR category",
+    "description": "O campo system é obrigatório, sendo que o mesmo se encontra vazio.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR956",
+    "message": "É obrigatório preencher o campo code ao informar a categoria usando a estrutura FHIR category",
+    "description": "O campo do código do sistema é obrigatório, sendo que o mesmo se encontra vazio.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR957",
+    "message": "É obrigatório informar a categoria usando a estrutura de FHIR category",
+    "description": "O campo categoria é obrigatório e se encontra vazio.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR958",
+    "message": "Campo code da estrutura FHIR scope inválido: {0}",
+    "description": "O código do escopo do consentimento está vazio, e é obrigatório o preenchimento.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR959",
+    "message": "Campo system da estrutura FHIR scope inválido: {0}",
+    "description": "O código do escopo do consentimento do sistema está fora do rol de consentimentos de sistema.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR960",
+    "message": "É obrigatório preencher o campo system ao informar o escopo usando a estrutura FHIR scope",
+    "description": "O código do escopo do consentimento do sistema está vazio, e é obrigatório o preenchimento.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR961",
+    "message": "É obrigatório preencher o campo code ao informar o escopo usando a estrutura FHIR scope",
+    "description": "O código do escopo do consentimento está vazio, e é obrigatório o preenchimento",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR962",
+    "message": "É obrigatório informar o escopo usando a estrutura de FHIR scope",
+    "description": "O escopo do consentimento é obrigatório e está vazio",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR963",
+    "message": "Status inválido: {0}",
+    "description": "Status inexistente na RNDS.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR964",
+    "message": "É obrigatório informar o status do documento",
+    "description": "Necessário efetuar o cadastramento do status.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR965",
+    "message": "Tipo do documento informado em sua estrutura interna deve condizer com o tipo informado na estrutura FHIR type: {0}",
+    "description": "O tipo do documento não está seguindo o padrão FHIR.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR966",
+    "message": "Campo system da estrutura FHIR type inválido: {0}",
+    "description": "O tipo de código do sistema não foi enviado corretamente.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR967",
+    "message": "É obrigatório preencher o campo system ao informar um tipo do documento usando a estrutura FHIR type",
+    "description": "não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR968",
+    "message": "É obrigatório preencher o campo code ao informar um tipo do documento usando a estrutura FHIR type",
+    "description": "*obs.: não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR969",
+    "message": "É obrigatório informar o tipo do documento usando a estrutura de FHIR type",
+    "description": "*obs.: não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR970",
+    "message": "O conteúdo do documento é inválido ou não condiz com o contentType indicado",
+    "description": "*obs.: não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR971",
+    "message": "É obrigatório informar o conteúdo do documento usando o campo FHIR attachment.data",
+    "description": "*obs.: não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR972",
+    "message": "ContentType inválido: {0}",
+    "description": "*obs.: não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR973",
+    "message": "É obrigatório informar o contentType do documento",
+    "description": "*obs.: não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR974",
+    "message": "A data deve ser igual ou menor que a data atual",
+    "description": "A data informada é superior a data atual. É necessário enviar a data no período correto, isto é, menor ou igual a data atual.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR975",
+    "message": "É obrigatório informar a data do documento",
+    "description": "É obrigatório informar a data do documento, mas a mesma se encontra vazia.",
+    "guidance": "",
+    "document": "para todos os documentos RNDS (RIA, REL, RAC, RA, RPM, RDM,ATM, CMD, SA, SAO).",
+    "label": ""
+  },
+  {
+    "code": "ERR976",
+    "message": "Tipo de referência inválida para autores: {0}",
+    "description": "O tipo de referência não está de acordo com o autor {0}.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR977",
+    "message": "É obrigatório informar pelo menos um autor do documento",
+    "description": "A quantidade de autores informado foi 0, é necessário informar pelo menos um autor.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR978",
+    "message": "Autor não encontrado: {0}",
+    "description": "É necessário informar o autor, nenhum autor foi informado. A informação veio nula ou vazia.",
+    "guidance": "A informação referente ao autor está vazia ou em branco. Verifique, os dados e enviei novamente.",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR979",
+    "message": "Não foi possível buscar o documento solicitado",
+    "description": "O documento solicitado não foi encontrado, favor verificar a informação do documento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR980",
+    "message": "O identificador do documento informado é inválido",
+    "description": "O identificador do documento foi enviado como nulo ou vazio.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR981",
+    "message": "Tipo de referência inválida: {0}",
+    "description": "A informação do tipo de profile informado não tem consta no rol de referência de profiles usando na RNDS.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR982",
+    "message": "Não foi possível processar o documento de id {0} pois a referência para o documento original está inválida ou não existe",
+    "description": "O documento de id não foi processado por não estar em conformidade com o FHIR.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR983",
+    "message": "Paciente não encontrado: {0}",
+    "description": "O CPF ou CNS informado não foi encontrado na base.",
+    "guidance": "O sistema não está encontrado os dados paciente na base de dados. Verifique se os dados do CPF ou CNS estão corretos. Refaça o processo novamente.",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR984",
+    "message": "Não foram informados parâmetros válidos",
+    "description": "O campo informado pode estar nulo ou vazio. Exemplo: paciente vazio ou nulo.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR985",
+    "message": "O registro de {0} referenciado possui um estado inválido: identificador não é único",
+    "description": "Foi retornado mais de um registro para esse CNS ou CPF.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR986",
+    "message": "Não foi possível buscar os documentos do paciente",
+    "description": "Ao buscar os documentos do paciente o sistema apresentou erro interno.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR987",
+    "message": "O registro do paciente referenciado possui um estado inválido: não há CNS definitivo",
+    "description": "A informação do CNS enviada foi nula ou vazia.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR988",
+    "message": "A referência ao profissional informada não é válida",
+    "description": "*obs.: não está em uso. Sem implementação.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR989",
+    "message": "Acesso ao EHR Data Services não autorizado",
+    "description": "Sem permissão de acesso ao EHR data services. Http error 401.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR990",
+    "message": "Resposta do EHR Data Services não condiz com contrato de serviço",
+    "description": "Erro não esperado de retorno pelo EHR Data Services.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR991",
+    "message": "Erro ao processar resposta do EHR Data Services",
+    "description": "Mensagem com conteúdo incorreto enviado pelo EHR Data Services. O parse não foi possível.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR992",
+    "message": "Tempo máximo de comunicação atingido ao tentar comunicar com EHR Data Services",
+    "description": "Timeout de comunicação do socket entre os sistemas.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR993",
+    "message": "EHR Data Services não está disponível",
+    "description": "EHR Data services indisponível. Problema técnico RNDS ou instabilidade de rede.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR994",
+    "message": "Erro ao tentar estabelecer comunicação com o EHR Data Services",
+    "description": "EHR Data services indisponível. Problema técnico RNDS ou instabilidade de rede.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR995",
+    "message": "Ordenação requisitada não é suportada",
+    "description": "A ordenação da consulta solicitada não é suportada. Verifique a ordem das datas enviadas para a ordenação dos dados.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR996",
+    "message": "Documento enviado é inválido",
+    "description": "O documento foi enviado vazio ou nulo.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR997",
+    "message": "A referência ao paciente informada não é válida: {0}",
+    "description": "As informações do paciente foram enviadas incorretamente.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR998",
+    "message": "Não foi possível persistir o documento",
+    "description": "Ações de continuidade como deletar, salvar ou criar consentimento não foi possível. Necessário efetuar novamente a ação feita no momento do erro ou fazer novo envio do documento.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR999",
+    "message": "Não há conectividade com o banco de dados de cache",
+    "description": "O Banco de dados de cache está inacessível. Este tipo de problema é temporário e é tratado em prioridade para a resolução técnica.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "ERR1005",
+    "message": "Procedimentos do grupo 030101, é necessário o código CBO",
+    "description": "Necessário informar o CBO para prosseguir com o envio.",
+    "guidance": "",
+    "document": "RA – Regulação Assistencial.",
+    "label": ""
+  },
+  {
+    "code": "ERR1006",
+    "message": "A Data da Solicitação (ServiceRequest.AuthoredOn) deve ser menor ou igual a data do recebimento do documento.",
+    "description": "Referente ao envio do doc RA, é necessário validar a data de atendimento e a data de recebimento do documento.",
+    "guidance": "",
+    "document": "RA – Regulação Assistencial.",
+    "label": ""
+  },
+  {
+    "code": "ERR1007",
+    "message": "A Data de Autorização (Appointment.created) deve ser maior ou igual a Data se Solicitação (ServiceRequest.AuthoredOn).",
+    "description": "Referente ao envio do doc RA, é necessário validar a data de autorização do atendimento e a data de solicitação.",
+    "guidance": "",
+    "document": "RA – Regulação Assistencial.",
+    "label": ""
+  },
+  {
+    "code": "ERR1008",
+    "message": "A Data de Agendamento (Appointment.start) deve ser maior ou igual a Data de Autorização (Appointment.created).",
+    "description": "Referente ao envio do doc RA, é necessário validar a data de agendamento do atendimento e a data de autorização.",
+    "guidance": "",
+    "document": "RA – Regulação Assistencial.",
+    "label": ""
+  },
+  {
+    "code": "ERR1009",
+    "message": "A Data de Execução (ServiceRequest.occurrenceDateTime) deve ser maior ou igual a Data de Agendamento (Appointment.start).",
+    "description": "Referente ao envio do doc RA, é necessário validar a data de execução do atendimento e a data de agendamento.",
+    "guidance": "",
+    "document": "RA – Regulação Assistencial.",
+    "label": ""
+  },
+  {
+    "code": "ERR1010",
+    "message": "A data de Administração do Imunobiológico (Immunization.occurrenceDateTime) não possa ser maior que o dia vigente.",
+    "description": "Necessário verificar a data de administração do Imunobiológico. A data está como data futura.",
+    "guidance": "",
+    "document": "RIA – Registro Imunobiológico Administrado.",
+    "label": ""
+  },
+  {
+    "code": "ERR1011",
+    "message": "O campo de Contato Hanseníase (Immunization.extension:contatoHanseniase) deverá ser obrigatório quando o Imunobiológico Administrado (Immunization.vaccineCode.coding.code) for code 15.",
+    "description": "Trata-se de RIA utilizando o code 15, por isso, é necessár preencher o campo Contato Hanseníase.",
+    "guidance": "",
+    "document": "RIA – Registro Imunobiológico Administrado – Imuno code 15.",
+    "label": ""
+  },
+  {
+    "code": "ERR1012",
+    "message": "O Campo Fabricante (Immunization.manufactor) deve ser obrigatório em todos os casos, exceto quando o Registro de Origem (Immunization.reportOrigin.coding.code) for code 01.",
+    "description": "Necessário validar o campo fabricante. O campo é obrigatório no envio do documento.",
+    "guidance": "",
+    "document": "RIA – Registro Imunobiológico Administrado – Imuno exceto code 1.",
+    "label": ""
+  },
+  {
+    "code": "ERR1013",
+    "message": "O Campo Lote (Immunization.lotNumber) deve ser obrigatório em todos os casos, exceto quando o Registro de Origem (Immunization.reportOrigin.coding.code) for code 01.",
+    "description": "Necessário validar o campo Lote. O campo é obrigatório no envio do documento.",
+    "guidance": "",
+    "document": "RIA – Registro Imunobiológico Administrado – Imuno exceto code 1.",
+    "label": ""
+  },
+  {
+    "code": "ERR1014",
+    "message": "O Campo Motivo de Indicação (Immunization.reasonReference) deve ser opcional, exceto quando a Estratégia de Vacinação (Immunization.protocolApplied.extension:strategy) for Especial (code 2).",
+    "description": "Se o envio refere-se ao Imuno Code 2, é necessário informar o campo Motivo de Indicação. Para todos os demais códigos, o envio é opcional.",
+    "guidance": "",
+    "document": "RIA – Registro Imunobiológico Administrado – Imuno exceto code 2.",
+    "label": ""
+  },
+  {
+    "code": "ERROR_CONSUME_MESSAGE",
+    "message": "Falha ao tentar processar a mensagem: {0}",
+    "description": "Falha ao tentar processar a mensagem: {0}",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "VIOLATION_CONSTRAINT",
+    "message": "Erro fatal de violação de restrição (constraints) de banco de dados.",
+    "description": "Erro fatal de violação de restrição (constraints) de banco de dados.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "VIOLATION_FK_CONSTRAINT",
+    "message": "O registro não pode ser excluído pois possui dependências na base de dados.",
+    "description": "O registro não pode ser excluído pois possui dependências na base de dados.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "VIOLATION_UK_CONSTRAINT",
+    "message": "O registro já existe na base de dados.",
+    "description": "O registro já existe na base de dados.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "VALIDATION_DOMINIO",
+    "message": "O valor informado para o campo é inválido.",
+    "description": "O valor informado para o campo é inválido.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "REGISTRO_DELETADO",
+    "message": "O registro foi deletado com sucesso.",
+    "description": "O registro foi deletado com sucesso.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "validation.required",
+    "message": "O campo {0} é de preenchimento obrigatório.",
+    "description": "O campo {0} é de preenchimento obrigatório.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  },
+  {
+    "code": "validation.type.param",
+    "message": "Tipo de parâmetro incorreto para a requisição.",
+    "description": "Tipo de parâmetro incorreto para a requisição.",
+    "guidance": "",
+    "document": "",
+    "label": ""
+  }
+]

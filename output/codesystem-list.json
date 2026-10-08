@@ -1,3 +1,10 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [{
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "RNDSErros",
+    "title" : "Catálogo de Mensagens e Erros da RNDS",
+    "description" : "Códigos de mensagens e erros documentados pela RNDS, baseados na Lista de Mensagens e Erros Apresentados pela RNDS, versão 3.0, 20/09/2024. A publicação não implica que todos os códigos permaneçam implementados."
+  }]
 }

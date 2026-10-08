@@ -1,13 +1,19 @@
 RNDSIG : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 0
+err = 0, warn = 1, info = 1, broken links = 0
 $--
 Generated $--. FHIR version $-- for br.gov.saude.rnds.fhir#$-- (canonical = https://fhir.saude.gov.br/rnds)
  Build Errors : 0 / 0 / 0
  /home/igor/rnds-ig/input/myig : 0 / 0 / 2
  /home/igor/rnds-ig/input/resources/CapabilityStatement-EHRServices : 0 / 7 / 2
+ /home/igor/rnds-ig/input/resources/CodeSystem-RNDSErros : 0 / 2 / 2
+ /home/igor/rnds-ig/input/resources/ValueSet-RNDSErros : 0 / 1 / 1
 </table>
 == n/a ==
 == input/myig.xml ==
 == input/resources/CapabilityStatement-EHRServices.json ==
+== input/resources/CodeSystem-RNDSErros.json ==
+INFORMATION: CodeSystem/RNDSErros: CodeSystem.property[3]: O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma informação ValueSet, pelo que os códigos serão validados como códigos internos
+WARNING: CodeSystem/RNDSErros: CodeSystem.concept[66].property[2]: O código 'nao-implementado-ou-inativo' não é um código válido neste sistema de códigos
+== input/resources/ValueSet-RNDSErros.json ==

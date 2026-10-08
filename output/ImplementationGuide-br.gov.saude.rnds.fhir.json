@@ -28,7 +28,7 @@
   "title" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-07T14:15:12-03:00",
+  "date" : "2026-10-08T19:34:48-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -394,6 +394,28 @@
       },
       "name" : "CapabilityStatement do EHR-Services da RNDS",
       "description" : "CapabilityStatement do EHR-Services da RNDS"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/RNDSErros"
+      },
+      "name" : "Catálogo de Mensagens e Erros da RNDS",
+      "description" : "Códigos de mensagens e erros documentados pela RNDS, baseados na Lista de Mensagens e Erros Apresentados pela RNDS, versão 3.0, 20/09/2024. A publicação não implica que todos os códigos permaneçam implementados."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/RNDSErros"
+      },
+      "name" : "Mensagens e Erros da RNDS",
+      "description" : "Conjunto de códigos de mensagens e erros apresentados pela RNDS."
     }],
     "page" : {
       "extension" : [{

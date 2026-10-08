@@ -9,7 +9,7 @@
   "changes": "changes.html",
   "first": true,
   "title": "RNDS IG",
-  "ci-build": "https://igorevan.github.io/rnds-ig/",
+  "ci-build": "https://github.com/igorevan/rnds-ig",
   "registry-description": "Primeira versão do Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "registry-country": "BR",
   "registry-authority": "Ministério da Saúde do Brasil",

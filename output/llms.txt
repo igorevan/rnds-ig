@@ -13,6 +13,14 @@
 
 ## Resources
 
+### CodeSystems
+
+* [Catálogo de Mensagens e Erros da RNDS](en/CodeSystem-RNDSErros.md)
+
+### ValueSets
+
+* [Mensagens e Erros da RNDS](en/ValueSet-RNDSErros.md)
+
 ### CapabilityStatements
 
 * [CapabilityStatement do EHR-Services da RNDS](en/CapabilityStatement-CapabilityStatement-EHRServices.md)
