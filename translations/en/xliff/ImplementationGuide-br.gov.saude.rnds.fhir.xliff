@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="pt-BR" target-language="en" id="ImplementationGuide-br.gov.saude.rnds.fhir" original="Resource ImplementationGuide-br.gov.saude.rnds.fhir" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>RNDSIG</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.title">
+             <notes>
+               <note id="n1">ImplementationGuide.title</note>
+             </notes>
+        <source>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">ImplementationGuide.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.description">
+             <notes>
+               <note id="n1">ImplementationGuide.description</note>
+             </notes>
+        <source>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>CapabilityStatement do EHR-Services da RNDS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>CapabilityStatement do EHR-Services da RNDS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Catálogo de Mensagens e Erros da RNDS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Códigos de mensagens e erros documentados pela RNDS, baseados na Lista de Mensagens e Erros Apresentados pela RNDS, versão 3.0, 20/09/2024. A publicação não implica que todos os códigos permaneçam implementados.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Mensagens e Erros da RNDS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Conjunto de códigos de mensagens e erros apresentados pela RNDS.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Índice</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Principal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Credenciamento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Integração</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Artefatos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Histórico de mudanças</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Downloads</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Feedback</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-br.gov.saude.rnds.fhir" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Suporte da RNDS</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

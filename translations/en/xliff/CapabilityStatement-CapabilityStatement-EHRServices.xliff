@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="pt-BR" target-language="en" id="CapabilityStatement-CapabilityStatement-EHRServices" original="Resource CapabilityStatement-CapabilityStatement-EHRServices" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.name">
+             <notes>
+               <note id="n1">CapabilityStatement.name</note>
+             </notes>
+        <source>CapabilityStatement-EHRServices</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.title">
+             <notes>
+               <note id="n1">CapabilityStatement.title</note>
+             </notes>
+        <source>CapabilityStatement do EHR-Services da RNDS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.publisher">
+             <notes>
+               <note id="n1">CapabilityStatement.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.software.name">
+             <notes>
+               <note id="n1">CapabilityStatement.software.name</note>
+             </notes>
+        <source>RNDS FHIR R4 HML Server</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.software.version">
+             <notes>
+               <note id="n1">CapabilityStatement.software.version</note>
+             </notes>
+        <source>5.6.0</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.implementation.description">
+             <notes>
+               <note id="n1">CapabilityStatement.implementation.description</note>
+             </notes>
+        <source>HAPI FHIR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.operation.name">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.operation.name</note>
+             </notes>
+        <source>lookup</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>Who and/or what the composition is about</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.operation.name">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.operation.name</note>
+             </notes>
+        <source>document</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>What the purpose of this list is</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>If all resources have the same subject</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>Any identifier for the organization (not the accreditation issuer's identifier)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>The patient's date of birth</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>Gender of the patient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>A patient identifier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>A practitioner's Identifier</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>The identity of the organization the practitioner represents / acts on behalf of</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CapabilityStatement-CapabilityStatement-EHRServices" resname="CapabilityStatement.rest.resource.searchParam.documentation">
+             <notes>
+               <note id="n1">CapabilityStatement.rest.resource.searchParam.documentation</note>
+             </notes>
+        <source>Practitioner that is able to provide the defined services for the organization</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

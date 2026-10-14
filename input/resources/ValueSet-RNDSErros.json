@@ -1,6 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "RNDSErros",
+  "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/ValueSet/RNDSErros",
   "version": "1.0.0",
   "name": "RNDSErrosVS",

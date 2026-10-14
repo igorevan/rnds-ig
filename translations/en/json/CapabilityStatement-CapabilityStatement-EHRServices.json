@@ -1,0 +1,127 @@
+{
+  "id" : "CapabilityStatement-CapabilityStatement-EHRServices",
+  "baseLang" : "pt-BR",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "CapabilityStatement.name",
+      "context" : "CapabilityStatement.name",
+      "source" : "CapabilityStatement-EHRServices",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.title",
+      "context" : "CapabilityStatement.title",
+      "source" : "CapabilityStatement do EHR-Services da RNDS",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.publisher",
+      "context" : "CapabilityStatement.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.software.name",
+      "context" : "CapabilityStatement.software.name",
+      "source" : "RNDS FHIR R4 HML Server",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.software.version",
+      "context" : "CapabilityStatement.software.version",
+      "source" : "5.6.0",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.implementation.description",
+      "context" : "CapabilityStatement.implementation.description",
+      "source" : "HAPI FHIR",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.operation.name",
+      "context" : "CapabilityStatement.rest.resource.operation.name",
+      "source" : "lookup",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "Who and/or what the composition is about",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.operation.name",
+      "context" : "CapabilityStatement.rest.resource.operation.name",
+      "source" : "document",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "What the purpose of this list is",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "If all resources have the same subject",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "Any identifier for the organization (not the accreditation issuer's identifier)",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "The patient's date of birth",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "Gender of the patient",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "A patient identifier",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "A practitioner's Identifier",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "The identity of the organization the practitioner represents / acts on behalf of",
+      "target" : null
+    },
+    {
+      "id" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "context" : "CapabilityStatement.rest.resource.searchParam.documentation",
+      "source" : "Practitioner that is able to provide the defined services for the organization",
+      "target" : null
+    }]
+  }]
+}

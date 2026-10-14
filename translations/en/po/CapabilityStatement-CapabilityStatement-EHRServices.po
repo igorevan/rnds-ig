@@ -1,0 +1,101 @@
+
+# CapabilityStatement.name
+#: CapabilityStatement.name
+msgid "CapabilityStatement-EHRServices"
+msgstr ""
+
+# CapabilityStatement.title
+#: CapabilityStatement.title
+msgid "CapabilityStatement do EHR-Services da RNDS"
+msgstr ""
+
+# CapabilityStatement.publisher
+#: CapabilityStatement.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CapabilityStatement.software.name
+#: CapabilityStatement.software.name
+msgid "RNDS FHIR R4 HML Server"
+msgstr ""
+
+# CapabilityStatement.software.version
+#: CapabilityStatement.software.version
+msgid "5.6.0"
+msgstr ""
+
+# CapabilityStatement.implementation.description
+#: CapabilityStatement.implementation.description
+msgid "HAPI FHIR"
+msgstr ""
+
+# CapabilityStatement.rest.resource.operation.name
+#: CapabilityStatement.rest.resource.operation.name
+msgid "lookup"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "Who and/or what the composition is about"
+msgstr ""
+
+# CapabilityStatement.rest.resource.operation.name
+#: CapabilityStatement.rest.resource.operation.name
+msgid "document"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "What the purpose of this list is"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "If all resources have the same subject"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "Any identifier for the organization (not the accreditation issuer's identifier)"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "The patient's date of birth"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "Gender of the patient"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "A patient identifier"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "A practitioner's Identifier"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "The identity of the organization the practitioner represents / acts on behalf of"
+msgstr ""
+
+# CapabilityStatement.rest.resource.searchParam.documentation
+#: CapabilityStatement.rest.resource.searchParam.documentation
+msgid "Practitioner that is able to provide the defined services for the organization"
+msgstr ""
+

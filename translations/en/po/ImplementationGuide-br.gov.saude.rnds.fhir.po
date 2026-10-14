@@ -1,0 +1,101 @@
+
+# ImplementationGuide.name
+#: ImplementationGuide.name
+msgid "RNDSIG"
+msgstr ""
+
+# ImplementationGuide.title
+#: ImplementationGuide.title
+msgid "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)"
+msgstr ""
+
+# ImplementationGuide.publisher
+#: ImplementationGuide.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ImplementationGuide.description
+#: ImplementationGuide.description
+msgid "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "CapabilityStatement do EHR-Services da RNDS"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "CapabilityStatement do EHR-Services da RNDS"
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Catálogo de Mensagens e Erros da RNDS"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Códigos de mensagens e erros documentados pela RNDS, baseados na Lista de Mensagens e Erros Apresentados pela RNDS, versão 3.0, 20/09/2024. A publicação não implica que todos os códigos permaneçam implementados."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Mensagens e Erros da RNDS"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Conjunto de códigos de mensagens e erros apresentados pela RNDS."
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Índice"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Principal"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Credenciamento"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Integração"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Artefatos"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Histórico de mudanças"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Downloads"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Feedback"
+msgstr ""
+
+# ImplementationGuide.definition.page.title
+#: ImplementationGuide.definition.page.title
+msgid "Suporte da RNDS"
+msgstr ""
+

@@ -1,30 +1,30 @@
-# br.gov.saude.rnds.fhir#1.0.0-release: Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)(en)
+# br.gov.saude.rnds.fhir#1.0.0-release: Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)(pt-BR)
 
 ## Pages
 
-* [Principal](en/index.md)
-* [Credenciamento](en/credenciamento.md)
-* [Downloads](en/downloads.md)
-* [Suporte da RNDS](en/suporte.md)
-* [Feedback](en/forms.md)
-* [Integração](en/integracao.md)
-* [Artefatos](en/artifacts.md)
-* [Histórico de mudanças](en/changes.md)
+* [Principal](pt-BR/index.md)
+* [Credenciamento](pt-BR/credenciamento.md)
+* [Downloads](pt-BR/downloads.md)
+* [Suporte da RNDS](pt-BR/suporte.md)
+* [Feedback](pt-BR/forms.md)
+* [Integração](pt-BR/integracao.md)
+* [Artefatos](pt-BR/artifacts.md)
+* [Histórico de mudanças](pt-BR/changes.md)
 
 ## Resources
 
 ### CodeSystems
 
-* [Catálogo de Mensagens e Erros da RNDS](en/CodeSystem-RNDSErros.md)
+* [Catálogo de Mensagens e Erros da RNDS](pt-BR/CodeSystem-RNDSErros.md)
 
 ### ValueSets
 
-* [Mensagens e Erros da RNDS](en/ValueSet-RNDSErros.md)
+* [Mensagens e Erros da RNDS](pt-BR/ValueSet-RNDSErros.md)
 
 ### CapabilityStatements
 
-* [CapabilityStatement do EHR-Services da RNDS](en/CapabilityStatement-CapabilityStatement-EHRServices.md)
+* [CapabilityStatement do EHR-Services da RNDS](pt-BR/CapabilityStatement-CapabilityStatement-EHRServices.md)
 
 ### ImplementationGuides
 
-* [Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)](en/ImplementationGuide-br.gov.saude.rnds.fhir.md)
+* [Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)](pt-BR/ImplementationGuide-br.gov.saude.rnds.fhir.md)

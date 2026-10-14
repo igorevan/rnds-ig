@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="pt-BR" target-language="en" id="ValueSet-RNDSErros" original="Resource ValueSet-RNDSErros" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-RNDSErros" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>RNDSErrosVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-RNDSErros" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Mensagens e Erros da RNDS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-RNDSErros" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-RNDSErros" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-RNDSErros" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Conjunto de códigos de mensagens e erros apresentados pela RNDS.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,127 @@
+{
+  "id" : "ImplementationGuide-br.gov.saude.rnds.fhir",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "ImplementationGuide.name",
+      "context" : "ImplementationGuide.name",
+      "source" : "RNDSIG",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.title",
+      "context" : "ImplementationGuide.title",
+      "source" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.publisher",
+      "context" : "ImplementationGuide.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.description",
+      "context" : "ImplementationGuide.description",
+      "source" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "CapabilityStatement do EHR-Services da RNDS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "CapabilityStatement do EHR-Services da RNDS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Catálogo de Mensagens e Erros da RNDS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Códigos de mensagens e erros documentados pela RNDS, baseados na Lista de Mensagens e Erros Apresentados pela RNDS, versão 3.0, 20/09/2024. A publicação não implica que todos os códigos permaneçam implementados.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Mensagens e Erros da RNDS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Conjunto de códigos de mensagens e erros apresentados pela RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Índice",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Principal",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Credenciamento",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Integração",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Artefatos",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Histórico de mudanças",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Downloads",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Feedback",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Suporte da RNDS",
+      "target" : null
+    }]
+  }]
+}

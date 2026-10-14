@@ -1,0 +1,2935 @@
+{
+  "id" : "CodeSystem-RNDSErros",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "RNDSErros",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "Catálogo de Mensagens e Erros da RNDS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Códigos de mensagens e erros documentados pela RNDS, baseados na Lista de Mensagens e Erros Apresentados pela RNDS, versão 3.0, 20/09/2024. A publicação não implica que todos os códigos permaneçam implementados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.property.description",
+      "context" : "CodeSystem.property.description",
+      "source" : "Mensagem sistêmica apresentada pela RNDS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.property.description",
+      "context" : "CodeSystem.property.description",
+      "source" : "Orientação ao integrador, quando explicitamente presente no documento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.property.description",
+      "context" : "CodeSystem.property.description",
+      "source" : "Tipo de documento associado ao código, quando informado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.property.description",
+      "context" : "CodeSystem.property.description",
+      "source" : "Situação de implementação declarada no documento de origem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.property.description",
+      "context" : "CodeSystem.property.description",
+      "source" : "Grupo do catálogo de origem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O CNS {0} não foi encontrado na base.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o CNS informado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo de documento inválido para pesquisa do tipo list.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O documento informado está inválido. Verifique o documento e os parâmetros de pesquisa.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Usuário sem consentimento para acessar o documento {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O consentimento não foi dado para o acesso ao documento enviado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Usuário sem consentimento para acessar a timeline.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O consentimento não foi dado para o acesso à timeline.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento {0} não foi encontrado na base.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Não existe este documento na base RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Confirmação de exclusão efetuada",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento referenciado para substituição no campo 'relatesTo' possui um 'identifier' que não é o mesmo do documento que foi substituído.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o dado do relatesTo com o documento a ser substituído, pois, há divergência de dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento {0} referenciado para substituição no 'relatesTo' não foi encontrado na base.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o documento referenciado, pois, o mesmo não foi localizado na base da RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento {0} já foi substituído.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Confirmação da substituição de documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Identifier duplicado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O identificador fornecido como identifier, já foi registrado anteriormente, é preciso fornecer um novo ou validar o registro enviado anteriormente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento {0} já existe.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o CNS informado e o documento informado, pois o documento enviado para este CNS já existe na base RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Consentimento não localizado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O consentimento para o documento acessado não foi localizado na base da RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo issued deve ter data posterior a {0}. MM/DD/AAAA",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar a data cadastrada no campo issued conforme mensagem.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo effective deve ter data posterior a {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar a data cadastrada no campo effective conforme mensagem.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo de documento \"{0}\" não suportado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar o tipo de documento enviado, pois o tipo enviado não é suportado pela RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Documento incluído a partir do documento com docId \"{0}\" não pode ser modificado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Como o documento foi feito a partir de um docId, não há possibilidade de modificação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Documento já existe na Base de Dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O documento que está sendo enviado já consta na base da RNDS, portanto, não é permitido novo envio para que não gere duplicidade.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O medicamento deve ser informado em texto livre no campo \"MedicationRequest.note\"",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O erro ocorre quando o documento FHIR é enviado e o campo MedicationRequest.note no perfil http://hl7.org/fhir/StructureDefinition/MedicationRequest está vazio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Os campos de periodicidade (MedicationRequest.dosageInstruction.timing.repeat.extension:period.extension:periodUnit e ou MedicationRequest.dosageInstruction.tim",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A validação é realizada quando a extensão do perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses e a combinação das extensões period e periodUnit indicam que, se a quantidade máxima for maior que 1, o intervalo entre as doses está incompleto.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Os campos de periodicidade (MedicationRequest.dosageInstruction.timing.repeat.extension:period e ou MedicationRequest.dosageInstruction.timing.repeat.extension:",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O erro ocorre quando os campos MedicationRequest.dosageInstruction.timing.repeat.extension:period e MedicationRequest.dosageInstruction.timing.repeat.extension:when do profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses estão preenchidas para medicamentos onde a dose é única.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A descrição sobre o uso do medicamento deve ser preenchida no campo \"MedicationRequest.note\" em caso de necessidade (MedicationRequest.dosageInstruction.asNeede",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Quando a tag MedicationRequest.dosageInstruction.asNeeded[x] do profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses vem preenchida com a quantidade, este campo torna-se obrigatório o seu preenchimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O valor \"{0}\" informado para o atributo \"operator\" nas informações demográficas de indivíduos que não podem ser identificados (paciente ou indivíduo não identif",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Este erro é lançado quando o CNS informado pelo FHIR não existe dentro do Indice Patient do Elastic, retornando assim a mensagem.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A modalidade (Encounter.class) \"Atenção à Urgência/Emergência\" ({0}) não pode ter como caráter de atendimento (Encounter.priority.coding) \"Eletivo\" ({1}) ({2}).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É uma validação de CodeSystem, http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento, onde o CodeSystem http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial definido como 6 não pode ter o Encounter.priority.coding preenchido como 01.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A modalidade do contato assistencial (Encounter.class) não permite utilizar a fonte de financiamento informada para o procedimento realizado (Encounter.diagnosi",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "No CodeSystem http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0 o campo Encounter.class quando vier preenchido como 01 - Atenção Básica, não pode haver financiamento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não podem existir CBOs (Procedure.performer.function) duplicados para um mesmo profissional de saúde (Procedure.performer.actor) no mesmo procedimento ({0}).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Não podem ser enviados CBOs duplicados de um mesmo profissional de saúde (identificado pelo CNS fornecido) nos campos Procedure.performer.function e Procedure.performer.actor no mesmo registro de procedimento ({0}).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não pode ser informado o(s) mesmo(s) código(s) ({0}) do(s) diagnóstico(s) principal(ais) (Encounter.reasonReference:primaryDiagnosis) para diagnósticos secundár",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validação de Diagnóstico Principal e Secundários, quando a terminologia de diagnóstico possuir marcador de diagnóstico principal, os diagnósticos secundários devem ser diferentes do diagnóstico principal. Está mensagem era exibida para o Conjunto Mínimo de Dados antes da unificação dos profiles: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0 e http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10AvaliadoANS-1.0.0",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Diagnóstico secundário duplicado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Quando são enviados mais de um diagnóstico secundário Encounter.diagnosis:diagnosis, os códigos enviados não podem ser duplicados para o campo Condition.code.coding, caracterizando duplicidade de diagnóstico.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não podem existir vários procedimentos com o mesmo código (Procedure.code.coding: {0}) e data de realização (Procedure.performedDateTime: {1}) no mesmo contato",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validação de Procedimentos e data, em um registro de contato assistencial não será permitido informar procedimentos (ações) iguais para a mesma data de realização.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Para a fonte de financiamento informada (Encounter.diagnosis:procedure.condition.extension:financier) é obrigatório informar o profissional responsável (Procedu",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Obrigatoriedade de identificação do profissional, informação do CNS do profissional deverá ser obrigatória para cada CBO informado quando o financiamento for selecionado para o SUS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Para a modalidade assistencial (Composition.category.coding.code) informada ({0}) o período entre datas de admissão (Encounter.period.start) e desfecho (Encount",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Caso seja informado em modalidade assistencial “04 - Atenção Hospitalar” deve-se validar se a data do desfecho menos a data de admissão é maior ou igual a 1 dia, exceto nos casos em que o desfecho for igual a “06 - Óbito” ou “09 - Transferência.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Para a modalidade assistencial (Composition.category.coding.code) informada ({0}) as datas de admissão (Encounter.period.start) e desfecho (Encounter.period.end",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Caso seja informada a modalidade assistencial “01 - Atenção básica” ou “07 - Ambulatorial especializado” a data de admissão e data do desfecho devem ser iguais.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de realização do procedimento (Procedure.performedDateTime) deve ser igual a data de admissão (Encounter.period.start) para a modalidade (Encounter.class",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A data de realização do procedimento Procedure.performedDateTime deve ser igual a data de admissão Encounter.period.start informada na modalidade do Contato Assistencial: [01 - Atenção básica | 07 - Ambulatorial Especializado].",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de desfecho (Encounter.period.end) não pode ser informada para o tipo de desfecho (Encounter.hospitalization.dischargeDisposition.coding) \"{0}\" ({1}).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Para os códigos: 01 - Atenção básica e 07 - Ambulatorial especializado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de desfecho (Encounter.period.end) não pode ser inferior a data de realização do procedimento (Procedure.performedDateTime){0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida se a data de desfecho está inferior à data de realização do procedimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de admissão (Encounter.period.start) não pode ser superior a data de realização do procedimento (Procedure.performedDateTime){0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida se a data de admissão está superior a data de realização do procedimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de desfecho (Encounter.period.end) não pode ser superior a data de óbito do indivíduo (Encounter.subject, Patient.deceased).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida se existe data de óbito para o paciente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de desfecho (Encounter.period.end) não pode ser inferior a data de nascimento do indivíduo (Encounter.subject, Patient.birthDate).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida se o paciente não possui uma data de nascimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de admissão (Encounter.period.start) não pode ser superior a data de óbito do indivíduo (Encounter.subject, Patient.deceased).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida se a data de procedimento informada é superior a data de óbito do paciente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de admissão (Encounter.period.start) não pode ser inferior a data de nascimento do indivíduo (Encounter.subject, Patient.birthDate).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida se a data de procedimento está anterior à data de nascimento do paciente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Código \"{0}#{1}\" não definido para a competência/versão {2} (\"{3}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validação do código do procedimento não está de acordo com a competência.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Combinação de tipo de exame (Observation.code) e interpretação (Observation.interpretation) não permitida (\"{0}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se a combinação entre tipo de exame e interpretações está correta. Necessário ter: Um profile definido, ou seja, não pode ser padrão. Tipo de exame. Interpretação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Combinação de tipo de exame (Observation.code) e resultado (Observation.valueCodeableConcept) não permitida (\"{0}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar a combinação entre tipo de exame e tipo de resultado. Tem que ter um profile definido, ou seja, não pode ser padrão. Tipo de exame. Resultado qualitativo.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Combinação de tipo de exame (Observation.code) e patógeno (Observation.extension:pathogen) não permitida (\"{0}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar a combinação entre tipo de exame e patógeno é permitida. Tem que ter um profile definido, ou seja, não pode ser padrão. Tipo de exame. A extensão de patógeno.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo \"Observation.interpretation\" não foi informado (\"{0}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se foi informado o campo Observation#getValueQuantity() juntamente com o campo Observation#getInterpretation().",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo \"timestamp\" do \"Bundle\" não pode ter data anterior à data atual.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Deve-se usar a data atual para o envio. Caso seja enviado datas no passado, a RNDS recusará.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo \"timestamp\" do \"Bundle\" não pode ter data posterior à data atual.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo \"Observation.effective\" deve ter data posterior a {0} (\"{1}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar a data mínima para o campo Observation#getEffectiveDateTimeType() ou Observation#getEffectiveInstantType()}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo \"Observation.issued\" deve ter data posterior a {0} (\"{1}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar a data mínima para o campo Observation#getIssued().",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Apenas o Composition \"raiz\" (aquele que não é referenciado por outros elementos no Bundle) pode possuir o atributo relatesTo (referente ao item \"{0}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se apenas o Composition \"raiz\" possui o atributo relatesTo.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento pode ter apenas um Composition \"raiz\" (aquele que não é referenciado por outros elementos no Bundle).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o Composition possui mais que 1 id.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento deve ter pelo menos um Composition \"raiz\" (aquele que não é referenciado por outros elementos no Bundle).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o Composition está nulo ou vazio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento {0} possui um tipo de documento FHIR inválido e não pode ser processado: {1}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se a informação está preenchida e é maior que 0.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Code \"{0}\" inativo (referente ao item \"{1}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o grupo de atendimento está inativo. Caso esteja inativo, a imunização é rejeitada.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Devem ser informados os dados da pesquisa clínica registrada na ANVISA que realizou a administração do imunobiológico (referente ao item \"{0}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se a imunização está relacionada a um estudo clínico para o desenvolvimento de imunobiológico e possui as informações para identificar a pesquisa clínica. Uma imunização está relacionada a um estudo clínico quando possuir o profile FhirProperties.Profile#BRImunobiologicoAdministrado_2_0 BRImunobiologicoAdministrado_2_0 e o valor da extensão FhirProperties.Extension#BREstrategiaVacinacao BREstrategiaVacinacao for \"pesquisa>\" (de acordo com o Code System FhirProperties.CodeSystem#BREstrategiaVacinacao BREstrategiaVacinacao}). Quando uma imunização está relacionada a um estudo clínico a extensão FhirProperties.Extension#BREstrategiaVacinacaoPesquisa BREstrategiaVacinacaoPesquisa tem que ter sido informada (os campos obrigatórios para a extensão são verificados pelo validador).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Só é permitida no máximo {0} imunizações para o imunobiológico de código \"{1}\" por paciente e por UF.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "De acordo com as regras estipuladas para cada imunobiológico de código \"{ }\" é definida a quantidade máxima de imunizações por paciente e por UF.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Configurações de validações FHIR inválidas.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar os códigos possíveis com base no CodeSystem de cada tipo de Profile e Documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Código de imunobiológico informado \"{0}\" é inválido (referente ao item \"{1}\").",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se existem códigos secundários iguais para o tipo de documento de vacina.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profissional {0} não autorizado, pois não faz parte da equipe que atende ao paciente com CNS {1}. deve ser maior que zero ({0}).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o índice Practitioner existe o Paciente na junção do índice Patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profissional {0} não autorizado, pois não possui CRM.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o índice Practitioner existe a tag CRM.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O identifier pesquisado apresentou inconsistência de integridade na hierarquia de substituições de documentos (relatesTo) e não pode ser pesquisado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar a hierarquia na tag relatesTo.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Informação referente ao item \"{0}\" já existe no repositório. O ID existente é {1}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A RNDS não permite registros duplicados. Desta forma, a mensagem de erro informa que a informação que está sendo inserida já está na RNDS e não poderá ser incluída novamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Item \"{0}\" repetido na requisição.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se a informação está se repetindo dentro da imunização.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Para realizar a exclusão, o status do documento deve ser \"{0}\".",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o documento está com status de final. Em final não é possível a exclusão. É preciso alterar o status para DELETED.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Você não possui autorização para excluir documentos desse sistema de origem: {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se o sistema solicitante tem permissão para realizar o Delete do documento FHIR.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Documento com o ID \"{0}\" não encontrado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se o documento possui uma auditoria para realizar o delete, pois, esta mensagem ocorre quando não é encontrado o documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ocorreu um erro ao tentar preparar a mensagem para agendamento de processamento (conversão doc FHIR original).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Este erro está inativado no código.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não encontrado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Esse erro ocorre quando a aplicação apresenta um erro não catalogado na RNDS. Necessário acionar o suporte.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Data futura inválida",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A data informada no campo Immunization.occurrenceDateTime deve ser igual ou menor que a data atual, no momento do envio do registro.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo de referência inválida para profissional de saúde: {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se o Performer.actor é válido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "{0} não encontrado ({1}).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Caso não tenha sido informado o \"performer\" o \"reportOrigin\" tem que indicar se se trata de uma transcrição de caderneta de vacinação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Os dados de autenticação informados são inválidos! Sistema solicitante {0} não autorizado!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar credenciais de INTEGRADORES na base do SCAB.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível ler o MANIFEST.MF",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A aplicação não conseguiu ler arquivo de configuração denominada MANIFEST.MF.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Token gov.br não autorizado! Usuário do token não possui todos os selos de confiabilidade cadastrais necessários.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha na verificação de selos gov.br. token.getSub(): {} | selosPrincipal: {} | audience.getSelos(): {}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível validar o token gov.br. Resposta da API de Autenticação gov.br não condiz com contrato de serviço.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "HTTP CODE não tratado devido a inconsistência entre requisição e tipo de requisições aprovada para o contrato RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível validar o token gov.br. Erro ao processar resposta da API de Autenticação gov.br.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Erro de comunicação com o gov.br. Não se trata de erro RNDS, portanto, não é necessário acionar o suporte MS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível validar o token gov.br. Tempo máximo de comunicação atingido ao tentar estabelecer comunicação com API de Autenticação gov.br.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Timeout de comunicação com o gov.br. Não se trata de erro RNDS, portanto, não é necessário acionar o suporte MS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível validar o token gov.br. A API de Autenticação gov.br não está disponível.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha de comunicação com o gov.br. Não se trata de erro RNDS, portanto, não é necessário acionar o suporte MS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível validar o token gov.br. Erro ao tentar estabelecer comunicação com a API de Autenticação gov.br.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Identifier inválido: system=[{0}], value=[{1}]",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se existe um identifier vindo do certificado gerado pelo SCAB.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Acesso à API de Validação de Perfis não autorizada.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar a informação com base no identifier e verificar os dados com o índice do Elastic.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Resposta da API de Validação de Perfis não condiz com contrato de serviço",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Trata-se de erro genérico gerado pelo serviço REST.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao processar resposta da API de Validação de Perfis.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário efetuar nova validação do bundle da credencial.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tempo máximo de comunicação atingido ao tentar comunicar com a API de Validação de Perfis",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Timeout da comunicação por instabilidade ou lentidão da rede.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "API de Validação de Perfis não está disponível",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Trata-se de indisponibilidade da API.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao tentar estabelecer comunicação com a API de Validação de Perfis",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O parâmetro 'bookmark' utilizado para a pesquisa paginada é inválido ou expirou.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar a paginação utilizando o ElasticSearch.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Para realizar essa pesquisa é necessário informar uma das combinações mínimas de parâmetros: Opção A - dois parâmetros principais (name, mothers-name); Opção B",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se atende a necessidade de ter pelo menos 1 parâmetro principal presente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O parâmetro {0} é inválido, {1}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário atender os parâmetros do código IBGE que tem 6 caracteres, somente números.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O parâmetro {0} é inválido, pois não é permitido nenhum tipo de modificador ou qualificador.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário atender à exigência de não usar modifier.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar pelo menos os campos 'system' e 'code' para executar essa operação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar os filtros obrigatórios.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Acesso à API de Notificação não autorizada",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar a permissão para acessar a API de Notificação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Resposta da API de Notificação não condiz com contrato de serviço",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao processar resposta da API de Notificação",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Erro de comunicação da API.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tempo máximo de comunicação atingido ao tentar comunicar com API de Notificação",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Timeout da API de Notificação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "API de Notificação não está disponível",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha de comunicação com a API.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao tentar estabelecer comunicação com o API de Notificação",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha de comunicação com a API Notificação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ocorreu um erro ao tentar notificar o paciente da geração do contexto de atendimento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha na hora de enviar uma notificação ao patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Parâmetro 'bookmark' para paginação é inválido",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha na consulta paginada do Elastic.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Operação inexistente ou não suportada.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Trata-se de um tratamento para Bad Request, tratamento de exceção usado para operação não aceita na RNDS - erro HTPP 400.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento {0} possui um perfil inválido e não pode ser processado: {1}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o perfil que está contido no documento FHIR, pois há alguma inconsistência impedindo o envio e a gravação na base.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Banco de dados de cache respondeu à pesquisa com erro, indicando que o índice não existe: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Foi feita uma consulta de um índice no Elastic que não existe. Necessário validar o índice consultado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ocorreu um erro não esperado ao tentar acessar o banco de dados de cache.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha de comunicação com o Elastic.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ocorreu um erro ao tentar processar os dados do índice {0} do banco de dados de cache.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O identifier informado já foi utilizado para cadastrar outro documento e não pode ser repetido. O id existente é {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o identifier já foi utilizado, pois, esta mensagem informa que há duplicidade dos dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O valor informado no campo 'targetReference' do atributo relatesTo é inválido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar as informações do documento FHIR dentro da tag relatesTo.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O valor informado no campo 'code' do atributo relatesTo é inválido. Só é permitido o uso do code 'replaces'.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o tipo de código do documento dentro da tag relatesTo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O atributo relatesTo permite apontar apenas 01 (um) documento para substituição.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Há um limite máximo de relatesTo. Necessário validar se este limite foi excedido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Documento referenciado no atributo 'relatesTo' já foi substituído em outra transação e não pode ser substituído novamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Só é permitido realizar uma substituição por um documento FHIR.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento referenciado para substituição no campo 'relatesTo' possui um 'identifier' que não é o mesmo do documento que o substitui. Para substituir um docume",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O identifier tem que ser idêntico ao documento original para que ele consiga realizar a substituição do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Documento para substituição, indicado no atributo relatesTo, não foi encontrado. Confira o id informado para o documento original, seu tipo e a UF onde este doc",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar as informações do campo relatesTo para substituição conforme o documento original a ser substituído.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento consultado referencia um paciente que não está presente na base de dados!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o dado está contido no índice Patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar pelo menos um parâmetro de pesquisa, seja um identificador de Profissional ou um identificador de Organização.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar os filtros para cruzamento de dados dentro do Elastic.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Configuração de GOV.BR Audience {0} inválida!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validação do gov.br. Não se trata de erro RNDS. Este erro está relacionado ao gov.br.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profissional {0} não autorizado, pois não possui vínculo CBO autorizado no CNES {1} solicitado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o Practitioner e sua relação de CNES cadastrado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Você não possui autorização para enviar documentos para esta UF.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o índice cnes_acesso_idx, permissão por estado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Você não possui autorização para utilizar esse sistema de origem: {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o índice cnes_acesso_idx, permissão por sistema.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O token de certificado usado para autorizar o acesso não é válido. {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o índice cnes_acesso_idx, permissão do token cadastrado vs o que foi enviado no login.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Os dados de autenticação informados são inválidos! Token com identificador {0} não possui sistemas autorizados!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Os dados de autenticação informados são inválidos! Token com identificador {0} não autorizado!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o índice cnes_acesso_idx, permissão utlizando a tag sistemaPermitido = true.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Code System não encontrado: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o CodeSystem do tipo de documento REL. Gera o sumário para RESULTADO_EXAME_LABORATORIAL.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profile de organização inválido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Esse código de profile de organização não foi encontrado da RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar o profile ao enviar um documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o documento, pois, não consta um profile válido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O tipo de documento EHR é inválido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o tipo de documento está cadastrado na RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O tipo de lista é obrigatório.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar a lista de códigos se está nula ou vazia.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O tipo de lista informado é inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar a autorização para realizar consulta/pesquisa de lista.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ocorreu um erro ao tentar gerar o sumário do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Gerar sumário de acordo com tipo de documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento {0} possui um sumário inválido e não pode ser processado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o sumário enviado está cadastrado dentro da RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O tamanho da página deve ter um valor entre 1 e {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o tamanho da paginação dentro do Elastic.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Parâmetro para tamanho de página é inválido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Trata-se de validação do Elastic.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "CNS {0} do paciente não foi encontrado na base do EHR Data Services!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar na base de consentimento se o CNS está cadastrado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro de colisão de IDs ao gravar documento no EHR Data Services!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o envio de IDs que já existem na base.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Você não possui autorização para cadastrar documentos para os seguintes autores/estabelecimentos: {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar se o certificado enviado tem permissão com o sumário + listas de sistemas permitidos.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Só é permitido solicitar contexto de atendimento para o mesmo profissional de saúde que é operador dessa requisição.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida se o practitioner é o mesmo do usuário que está sendo atendido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Só é permitido solicitar contexto de atendimento para um dos estabelecimentos autorizados para a credencial {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "PROSUS pode gerar para qualquer CNES; demais ficam restritos aos estabelecimentos autorizados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Estabelecimento de saúde não encontrado: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Não existe o estabelecimento dentro do índice organization do Elastic.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profissional não encontrado: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Não existe o profissional dentro do índice Practitioner.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O CNES do estabelecimento de saúde é obrigatório ao informar o contexto de atendimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar o estabelecimento de saúde.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O CNS do profissional é obrigatório ao informar o contexto de atendimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar se o profissional de saúde está cadastrado no CNES.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O CNS do paciente é obrigatório ao informar o contexto de atendimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Verifica se o paciente existe.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ocorreu um erro não esperado!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Erro interno do servidor, erro genérico.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profissional {0} não autorizado, pois não possui vínculo CBO autorizado em nenhum dos estabelecimentos autorizados para a credencial {1}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Valida credenciais do server na base do SCAB – Portal de Serviços.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Token gov.br expirado! Gere um novo token gov.br e tente novamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Token de login expirou, necessário gerar um novo.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Token gov.br inválido!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Token inválido com base na comunicação com o gov.br",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Token gov.br não autorizado! Sistema solicitante do token não possui autorização: {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O token gerado pelo gov.br não está cadastrado dentro do elastic para permitir o login e uso da RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível validar o token gov.br. URL da chave pública está indisponível!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O token usado para identificar o contexto de atendimento está expirado! Gere um novo token de contexto de atendimento para tentar novamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Período de ativação e validação do token está expirado. Necessário novo acesso e geração de token.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O documento de id {0} não pertence à instância RNDS requisitada. Para acessá-lo use o seguinte endereço: {1}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A busca feita pelo documento foi feita em instância incorreta ou com parâmetros incorretos.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Problema(s)/Diagnóstico(s) Secundário(s) sem existir um Problema/Diagnóstico Principal.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Não é possível o cadastramento de um secundário sem a existência de um principal.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não pode existir mais de um Problema/Diagnóstico Principal.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Somente é possível a existência de um Problema/Diagnóstico Principal.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O identificador do sistema de origem é inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Identificador não cadastrado ou usando parâmetros inválidos.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ao enviar um documento é obrigatório informar o identificador do documento no sistema de origem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falta a informação “identificador do documento” na origem da informação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O Tipo de Resource FHIR utilizado para a referência transitória {0} não é suportado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Resource FHIR fora do padrão RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Referência transitória não encontrada: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A referência transitória não foi cadastrada corretamente ou o campo está “null”.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Referência transitória inválida: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A referência transitória não foi cadastrada corretamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Referência transitória não corresponde à ordem estabelecida de resources FHIR: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ao enviar um documento é obrigatório utilizar um Composition como primeiro item da lista de resources FHIR",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "No documento enviado, não há o composition ou a ordem de envio não está como composition em primeiro no envio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ao enviar um documento é obrigatório utilizar o Bundle type: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O Bundle type enviado está incorreto. Necessário validar.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ao enviar um documento é obrigatório utilizar o status: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O status utilizado está incorreto.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O token usado para identificar o contexto de atendimento é inválido!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O token está expirado ou não está autorizado para esta identificação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao tentar processar agendamento de mensagem com documento: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O documento está inválido ou a RNDS apresenta alguma instabilidade.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao tentar agendar processamento de mensagem com documento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao preparar mensagem para processamento agendado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Você não possui autorização para realizar esta operação",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validação do índice cnes_acesso_idx",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Os dados de autenticação informados são inválidos! {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Você precisa estar autenticado para realizar esta operação",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Você não possui consentimento para visualizar os dados solicitados",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Esse paciente está inativo e não pode ser utilizado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validar se o dado está contido no índice Patient.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Só é permitido pesquisar profissionais usando os identificadores CPF ou CNS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É preciso enviar a informação do CNS ou CPF do profissional de saúde para a consulta ser efetuada.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Só é permitido pesquisar organizações usando o identificador CNES para Estabelecimentos ou CNPJ/CPF para Pessoas Jurídicas ou Profissionais Liberais",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validação do Practitioner e sua relação de CNES cadastrado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Só é permitido pesquisar pacientes usando os identificadores CPF ou CNS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validação da regra de negócio RNDS e CADSUS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O identificador do consentimento informado é inválido",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Validar dentro da base de consentimento se o CNS está cadastrado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo code da estrutura FHIR role inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "FHIR fora do padrão RNDS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo system da estrutura FHIR role inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo system ao informar o papel usando a estrutura FHIR role",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O campo está vindo vazio, é necessário informar o papel do autor, conforme a estrutura FHIR role",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo code ao informar o papel usando a estrutura FHIR role.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O campo está vindo vazio, é necessário informar o código, conforme a estrutura FHIR role.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar o papel do ator usando a estrutura de FHIR role",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É obrigatório o preenchimento do campo, mas ele não está sendo enviado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo de referência inválida para atores: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Foi informado uma referência de ator que não consta na lista da CNS, por favor verifique e envie corretamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar pelo menos um ator para o qual se deseja conceder/retirar consentimento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É obrigatório enviar as informações de pelo menos um ator ao consultar, conceder ou retirar o consentimento do paciente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ator não encontrado: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É necessário enviar as informações do ator.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Uso de consentimento por período ainda não suportado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O período informado está fora do suportado.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A política de consentimento implícita não pode ser aplicada a esse paciente pois ele se enquadra como VIP e seus dados devem obrigatoriamente passar por consent",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Esta regra negocial não se aplica a paciente inseridos na lista VIP.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo code da estrutura FHIR policyRule inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É necessário enviar as informações de consentimento implícitas e explícitas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo system da estrutura FHIR policyRule inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A informação de consentimento do sistema precisa ser enviada",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo System ao informar a política de consentimento usando a estrutura FHIR policyRule.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A informação da política de consentimento está vindo nula ou vazia, por favor informá-la.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo code ao informar a política de consentimento usando a estrutura FHIR policyRule",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A código da política de consentimento está vindo vazio, por favor informá-lo!",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo code da estrutura FHIR category inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "No código categoria informada não se encontra dentro do rol de códigos de consentimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo system da estrutura FHIR category inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A informação do sistema não se encontra dentro do rol de consentimentos.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo system ao informar a categoria usando a estrutura FHIR category",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O campo system é obrigatório, sendo que o mesmo se encontra vazio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo code ao informar a categoria usando a estrutura FHIR category",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O campo do código do sistema é obrigatório, sendo que o mesmo se encontra vazio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar a categoria usando a estrutura de FHIR category",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O campo categoria é obrigatório e se encontra vazio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo code da estrutura FHIR scope inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O código do escopo do consentimento está vazio, e é obrigatório o preenchimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo system da estrutura FHIR scope inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O código do escopo do consentimento do sistema está fora do rol de consentimentos de sistema.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo system ao informar o escopo usando a estrutura FHIR scope",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O código do escopo do consentimento do sistema está vazio, e é obrigatório o preenchimento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo code ao informar o escopo usando a estrutura FHIR scope",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O código do escopo do consentimento está vazio, e é obrigatório o preenchimento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar o escopo usando a estrutura de FHIR scope",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O escopo do consentimento é obrigatório e está vazio",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Status inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Status inexistente na RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar o status do documento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário efetuar o cadastramento do status.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo do documento informado em sua estrutura interna deve condizer com o tipo informado na estrutura FHIR type: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O tipo do documento não está seguindo o padrão FHIR.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campo system da estrutura FHIR type inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O tipo de código do sistema não foi enviado corretamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo system ao informar um tipo do documento usando a estrutura FHIR type",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "não está em uso. Sem implementação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório preencher o campo code ao informar um tipo do documento usando a estrutura FHIR type",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "*obs.: não está em uso. Sem implementação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar o tipo do documento usando a estrutura de FHIR type",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O conteúdo do documento é inválido ou não condiz com o contentType indicado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar o conteúdo do documento usando o campo FHIR attachment.data",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "ContentType inválido: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar o contentType do documento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data deve ser igual ou menor que a data atual",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A data informada é superior a data atual. É necessário enviar a data no período correto, isto é, menor ou igual a data atual.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar a data do documento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É obrigatório informar a data do documento, mas a mesma se encontra vazia.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo de referência inválida para autores: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O tipo de referência não está de acordo com o autor {0}.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "É obrigatório informar pelo menos um autor do documento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A quantidade de autores informado foi 0, é necessário informar pelo menos um autor.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Autor não encontrado: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "É necessário informar o autor, nenhum autor foi informado. A informação veio nula ou vazia.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível buscar o documento solicitado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O documento solicitado não foi encontrado, favor verificar a informação do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O identificador do documento informado é inválido",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O identificador do documento foi enviado como nulo ou vazio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo de referência inválida: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A informação do tipo de profile informado não tem consta no rol de referência de profiles usando na RNDS.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível processar o documento de id {0} pois a referência para o documento original está inválida ou não existe",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O documento de id não foi processado por não estar em conformidade com o FHIR.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Paciente não encontrado: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O CPF ou CNS informado não foi encontrado na base.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foram informados parâmetros válidos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O campo informado pode estar nulo ou vazio. Exemplo: paciente vazio ou nulo.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O registro de {0} referenciado possui um estado inválido: identificador não é único",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Foi retornado mais de um registro para esse CNS ou CPF.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível buscar os documentos do paciente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Ao buscar os documentos do paciente o sistema apresentou erro interno.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O registro do paciente referenciado possui um estado inválido: não há CNS definitivo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A informação do CNS enviada foi nula ou vazia.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A referência ao profissional informada não é válida",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Acesso ao EHR Data Services não autorizado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Sem permissão de acesso ao EHR data services. Http error 401.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Resposta do EHR Data Services não condiz com contrato de serviço",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Erro não esperado de retorno pelo EHR Data Services.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao processar resposta do EHR Data Services",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Mensagem com conteúdo incorreto enviado pelo EHR Data Services. O parse não foi possível.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tempo máximo de comunicação atingido ao tentar comunicar com EHR Data Services",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Timeout de comunicação do socket entre os sistemas.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "EHR Data Services não está disponível",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "EHR Data services indisponível. Problema técnico RNDS ou instabilidade de rede.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro ao tentar estabelecer comunicação com o EHR Data Services",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ordenação requisitada não é suportada",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "A ordenação da consulta solicitada não é suportada. Verifique a ordem das datas enviadas para a ordenação dos dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Documento enviado é inválido",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O documento foi enviado vazio ou nulo.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A referência ao paciente informada não é válida: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "As informações do paciente foram enviadas incorretamente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não foi possível persistir o documento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Ações de continuidade como deletar, salvar ou criar consentimento não foi possível. Necessário efetuar novamente a ação feita no momento do erro ou fazer novo envio do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não há conectividade com o banco de dados de cache",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O Banco de dados de cache está inacessível. Este tipo de problema é temporário e é tratado em prioridade para a resolução técnica.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Procedimentos do grupo 030101, é necessário o código CBO",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário informar o CBO para prosseguir com o envio.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A Data da Solicitação (ServiceRequest.AuthoredOn) deve ser menor ou igual a data do recebimento do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Referente ao envio do doc RA, é necessário validar a data de atendimento e a data de recebimento do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A Data de Autorização (Appointment.created) deve ser maior ou igual a Data se Solicitação (ServiceRequest.AuthoredOn).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Referente ao envio do doc RA, é necessário validar a data de autorização do atendimento e a data de solicitação.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A Data de Agendamento (Appointment.start) deve ser maior ou igual a Data de Autorização (Appointment.created).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Referente ao envio do doc RA, é necessário validar a data de agendamento do atendimento e a data de autorização.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A Data de Execução (ServiceRequest.occurrenceDateTime) deve ser maior ou igual a Data de Agendamento (Appointment.start).",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Referente ao envio do doc RA, é necessário validar a data de execução do atendimento e a data de agendamento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "A data de Administração do Imunobiológico (Immunization.occurrenceDateTime) não possa ser maior que o dia vigente.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário verificar a data de administração do Imunobiológico. A data está como data futura.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo de Contato Hanseníase (Immunization.extension:contatoHanseniase) deverá ser obrigatório quando o Imunobiológico Administrado (Immunization.vaccineCode.c",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Trata-se de RIA utilizando o code 15, por isso, é necessár preencher o campo Contato Hanseníase.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O Campo Fabricante (Immunization.manufactor) deve ser obrigatório em todos os casos, exceto quando o Registro de Origem (Immunization.reportOrigin.coding.code)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o campo fabricante. O campo é obrigatório no envio do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O Campo Lote (Immunization.lotNumber) deve ser obrigatório em todos os casos, exceto quando o Registro de Origem (Immunization.reportOrigin.coding.code) for cod",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Necessário validar o campo Lote. O campo é obrigatório no envio do documento.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O Campo Motivo de Indicação (Immunization.reasonReference) deve ser opcional, exceto quando a Estratégia de Vacinação (Immunization.protocolApplied.extension:st",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Se o envio refere-se ao Imuno Code 2, é necessário informar o campo Motivo de Indicação. Para todos os demais códigos, o envio é opcional.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Falha ao tentar processar a mensagem: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Falha ao tentar processar a mensagem: {0}",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erro fatal de violação de restrição (constraints) de banco de dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Erro fatal de violação de restrição (constraints) de banco de dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O registro não pode ser excluído pois possui dependências na base de dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O registro não pode ser excluído pois possui dependências na base de dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O registro já existe na base de dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O registro já existe na base de dados.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O valor informado para o campo é inválido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O valor informado para o campo é inválido.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O registro foi deletado com sucesso.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O registro foi deletado com sucesso.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "O campo {0} é de preenchimento obrigatório.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "O campo {0} é de preenchimento obrigatório.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Tipo de parâmetro incorreto para a requisição.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Tipo de parâmetro incorreto para a requisição.",
+      "target" : null
+    }]
+  }]
+}

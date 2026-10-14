@@ -1,6 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "RNDSErros",
+  "language": "pt-BR",
   "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros",
   "version": "1.0.0",
   "name": "RNDSErros",
@@ -8,7 +9,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "Ministério da Saúde - Brasil",
-  "description": "Códigos de mensagens e erros documentados pela RNDS, baseados na Lista de Mensagens e Erros Apresentados pela RNDS, versão 3.0, 20/09/2024. A publicação não implica que todos os códigos permaneçam implementados.",
+  "description": "Códigos de mensagens e erros documentados pela RNDS.",
   "content": "complete",
   "caseSensitive": true,
   "property": [
@@ -34,7 +35,7 @@
       "code": "situacaoDocumentada",
       "uri": "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros#situacaoDocumentada",
       "description": "Situação de implementação declarada no documento de origem",
-      "type": "code"
+      "type": "string"
     },
     {
       "code": "grupo",
@@ -1105,7 +1106,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3207,7 +3208,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3230,7 +3231,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3253,7 +3254,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3276,7 +3277,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3299,7 +3300,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3322,7 +3323,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3345,7 +3346,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },
@@ -3586,7 +3587,7 @@
         },
         {
           "code": "situacaoDocumentada",
-          "valueCode": "nao-implementado-ou-inativo"
+          "valueString": "nao-implementado-ou-inativo"
         }
       ]
     },

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="885b3826-0589-4abf-bda9-33172acfdc88"/>
+  <id value="5f57017f-6b99-4a47-995a-6722bff3c12b"/>
   <meta>
-    <lastUpdated value="2026-10-08T19:34:48.403-03:00"/>
+    <lastUpdated value="2026-10-14T15:26:34.227-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
     <fullUrl value="http://www.saude.gov.br/fhir/r4/ValueSet/RNDSErros"/>
     <resource>
       <ValueSet>
+        <language value="pt-BR"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
               <a href="CodeSystem-RNDSErros.html">codesystem Catálogo de Mensagens e Erros da RNDS v1.0.0-release (CodeSystem)</a>
@@ -30,7 +31,7 @@
                   <b>Código</b>
                 </td>
                 <td>
-                  <b>Ecrã (en)</b>
+                  <b>Ecrã (pt-BR)</b>
                 </td>
                 <td>
                   <b>Definição</b>
@@ -5322,7 +5323,7 @@
         <title value="Mensagens e Erros da RNDS"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-08T19:34:48-03:00"/>
+        <date value="2026-10-14T15:26:34-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5330,13 +5331,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e7f8c297-ec47-4e12-8d24-ea5c61a65eea"/>
-          <timestamp value="2026-10-08T19:35:50-03:00"/>
+          <identifier value="urn:uuid:baef57c8-f61d-4d6a-a064-6fb14df28af4"/>
+          <timestamp value="2026-10-14T15:27:29-03:00"/>
           <total value="251"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="en"/>
+            <valueCode value="pt"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -6617,9 +6618,10 @@
     <fullUrl value="http://www.saude.gov.br/fhir/r4/ValueSet/RNDSErros"/>
     <resource>
       <ValueSet>
+        <language value="pt-BR"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
               <a href="CodeSystem-RNDSErros.html">codesystem Catálogo de Mensagens e Erros da RNDS v1.0.0-release (CodeSystem)</a>
@@ -6637,7 +6639,7 @@
                   <b>Código</b>
                 </td>
                 <td>
-                  <b>Ecrã (en)</b>
+                  <b>Ecrã (pt-BR)</b>
                 </td>
                 <td>
                   <b>Definição</b>
@@ -11929,7 +11931,7 @@
         <title value="Mensagens e Erros da RNDS"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-08T19:34:48-03:00"/>
+        <date value="2026-10-14T15:26:34-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11937,13 +11939,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:91fea79a-055d-4d43-bea2-67ce31eb641c"/>
-          <timestamp value="2026-10-08T19:35:50-03:00"/>
+          <identifier value="urn:uuid:6fbc9a04-37e8-4a98-bbaf-d22d75c7a2b0"/>
+          <timestamp value="2026-10-14T15:27:29-03:00"/>
           <total value="251"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="en"/>
+            <valueCode value="pt"/>
           </parameter>
           <parameter>
             <name value="count"/>

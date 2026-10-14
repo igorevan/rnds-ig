@@ -1,0 +1,26 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "RNDSErrosVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Mensagens e Erros da RNDS"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Conjunto de códigos de mensagens e erros apresentados pela RNDS."
+msgstr ""
+
