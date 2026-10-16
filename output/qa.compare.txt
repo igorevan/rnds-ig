@@ -10,8 +10,19 @@ Generated $--. FHIR version $-- for br.gov.saude.rnds.fhir#$-- (canonical = http
  /home/igor/rnds-ig/input/resources/CodeSystem-RNDSErros : 0 / 1 / 1
  /home/igor/rnds-ig/input/resources/ValueSet-RNDSErros : 0 / 1 / 1
 </table>
+
 == n/a ==
+
+
 == input/myig.xml ==
+
+
 == input/resources/CapabilityStatement-EHRServices.json ==
+
+
 == input/resources/CodeSystem-RNDSErros.json ==
+
+
 == input/resources/ValueSet-RNDSErros.json ==
+
+

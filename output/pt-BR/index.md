@@ -47,10 +47,6 @@ Nesse contexto, os serviços de integração (*web services*) permitem o envio d
 
 Abaixo você encontra um material com o fluxo oficial para integração com a RNDS.
 
-<iframe src="https://mobileapps-prd.saude.gov.br/portal-servicos/files/f3bd659c8c8ae3ee966e575fde27eb58/0e3affbe4f1b86b50ae78ab652b2ebaa_pgst0fpqe.pdf" width="100%" title="Fluxo para integração com a RNDS" height="600px"> Seu navegador não suporta
-    visualização de PDF. <a href="https://mobileapps-prd.saude.gov.br/portal-servicos/files/f3bd659c8c8ae3ee966e575fde27eb58/0e3affbe4f1b86b50ae78ab652b2ebaa_pgst0fpqe.pdf">Clique
-      aqui para abrir</a>. </iframe>
- 
 ### Roteiro para o integrador
 
 Consulte as orientações gerais e, em seguida, as especificações do modelo que será integrado.
