@@ -53,7 +53,7 @@ Este sistema de códigos é referenciado na definição dos seguintes conjuntos 
   "title" : "Catálogo de Mensagens e Erros da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-16T15:27:55-03:00",
+  "date" : "2026-10-16T16:14:49-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -77,31 +77,26 @@ Este sistema de códigos é referenciado na definição dos seguintes conjuntos 
   "content" : "complete",
   "property" : [{
     "code" : "mensagem",
-    "uri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros#mensagem",
     "description" : "Mensagem sistêmica apresentada pela RNDS",
     "type" : "string"
   },
   {
     "code" : "orientacao",
-    "uri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros#orientacao",
     "description" : "Orientação ao integrador, quando explicitamente presente no documento",
     "type" : "string"
   },
   {
     "code" : "tipoDocumento",
-    "uri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros#tipoDocumento",
     "description" : "Tipo de documento associado ao código, quando informado",
     "type" : "string"
   },
   {
     "code" : "situacaoDocumentada",
-    "uri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros#situacaoDocumentada",
     "description" : "Situação de implementação declarada no documento de origem",
     "type" : "string"
   },
   {
     "code" : "grupo",
-    "uri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros#grupo",
     "description" : "Grupo do catálogo de origem",
     "type" : "string"
   }],

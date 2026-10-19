@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="be2b704f-94cd-4565-bd75-4a8303bfe774"/>
+  <id value="8375ac6b-c63d-4d37-b796-2233c1e50374"/>
   <meta>
-    <lastUpdated value="2026-10-16T15:27:55.222-03:00"/>
+    <lastUpdated value="2026-10-16T16:14:49.367-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -5323,7 +5323,7 @@
         <title value="Mensagens e Erros da RNDS"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-16T15:27:55-03:00"/>
+        <date value="2026-10-16T16:14:49-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -5331,8 +5331,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8c859ea1-7b45-4585-99f7-afe33ef0cbf2"/>
-          <timestamp value="2026-10-16T15:28:54-03:00"/>
+          <identifier value="urn:uuid:f18a8473-1854-455d-a231-79a77fcccb11"/>
+          <timestamp value="2026-10-16T16:15:42-03:00"/>
           <total value="251"/>
           <offset value="0"/>
           <parameter>
@@ -11931,7 +11931,7 @@
         <title value="Mensagens e Erros da RNDS"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-16T15:27:55-03:00"/>
+        <date value="2026-10-16T16:14:49-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -11939,8 +11939,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:eb5e03e1-da11-4354-bef8-30b8749806ca"/>
-          <timestamp value="2026-10-16T15:28:54-03:00"/>
+          <identifier value="urn:uuid:30b6c40c-b7f8-440b-b84a-b1f9bf831304"/>
+          <timestamp value="2026-10-16T16:15:42-03:00"/>
           <total value="251"/>
           <offset value="0"/>
           <parameter>

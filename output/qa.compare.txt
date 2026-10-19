@@ -7,7 +7,7 @@ Generated $--. FHIR version $-- for br.gov.saude.rnds.fhir#$-- (canonical = http
  Build Errors : 0 / 0 / 0
  /home/igor/rnds-ig/input/myig : 0 / 0 / 2
  /home/igor/rnds-ig/input/resources/CapabilityStatement-EHRServices : 0 / 7 / 2
- /home/igor/rnds-ig/input/resources/CodeSystem-RNDSErros : 0 / 1 / 1
+ /home/igor/rnds-ig/input/resources/CodeSystem-RNDSErros : 0 / 1 / 6
  /home/igor/rnds-ig/input/resources/ValueSet-RNDSErros : 0 / 1 / 1
 </table>
 

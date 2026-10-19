@@ -3,6 +3,7 @@
 # Erros relacionados as especificações da RNDS
 %have an OID assigned%
 %A restrição falhou%
+%Esta propriedade tem apenas um código%
 
 # Outros erros
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
