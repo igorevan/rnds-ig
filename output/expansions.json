@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "8375ac6b-c63d-4d37-b796-2233c1e50374",
+  "id" : "a26114e9-197a-4994-acdb-c2aed75ee763",
   "meta" : {
-    "lastUpdated" : "2026-10-16T16:14:49.367-03:00"
+    "lastUpdated" : "2026-11-19T16:23:23.751-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -20,7 +20,7 @@
       "title" : "Mensagens e Erros da RNDS",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-16T16:14:49-03:00",
+      "date" : "2026-11-19T16:23:23-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f18a8473-1854-455d-a231-79a77fcccb11",
-        "timestamp" : "2026-10-16T16:15:42-03:00",
+        "identifier" : "urn:uuid:d80860bb-2eb3-422b-b4f3-67622620920a",
+        "timestamp" : "2026-11-19T16:23:43-03:00",
         "total" : 251,
         "offset" : 0,
         "parameter" : [{
@@ -1325,7 +1325,7 @@
       "title" : "Mensagens e Erros da RNDS",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-10-16T16:14:49-03:00",
+      "date" : "2026-11-19T16:23:23-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1333,8 +1333,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:30b6c40c-b7f8-440b-b84a-b1f9bf831304",
-        "timestamp" : "2026-10-16T16:15:42-03:00",
+        "identifier" : "urn:uuid:d80860bb-2eb3-422b-b4f3-67622620920a",
+        "timestamp" : "2026-11-19T16:23:43-03:00",
         "total" : 251,
         "offset" : 0,
         "parameter" : [{

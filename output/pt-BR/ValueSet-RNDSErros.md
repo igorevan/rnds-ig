@@ -59,7 +59,7 @@ Este conjunto de valores não é utilizado aqui; pode ser utilizado noutro local
   "title" : "Mensagens e Erros da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-16T16:14:49-03:00",
+  "date" : "2026-11-19T16:23:23-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
