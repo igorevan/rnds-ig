@@ -31,7 +31,7 @@
   "title" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-19T16:23:23-03:00",
+  "date" : "2026-11-23T08:50:44-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
