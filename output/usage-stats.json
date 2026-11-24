@@ -1,37 +1,11 @@
 {
   "package": "br.gov.saude.rnds.fhir",
-  "version": "1.0.0-release",
+  "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "BR",
   "extensions": [],
   "profiles": {},
   "usage": {
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
-      "CapabilityStatement",
-      "CodeSystem",
-      "ImplementationGuide",
-      "ValueSet"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
-      "CapabilityStatement",
-      "CodeSystem",
-      "ImplementationGuide",
-      "ValueSet"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "CapabilityStatement",
-      "CodeSystem",
-      "ImplementationGuide",
-      "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page",
-      "ValueSet"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
-      "CapabilityStatement",
-      "CodeSystem",
-      "ImplementationGuide",
-      "ValueSet"
-    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
     ],

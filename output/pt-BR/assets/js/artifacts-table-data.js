@@ -1,11 +1,15 @@
 window.artifactsTableData = {
   "pt-BR": {
     "labels": {
-      "type":        "Type",
-      "category":    "Category",
-      "useGrouping": "Use grouping",
-      "clearAll":      "Clear all",
-      "linkToSection": "Link to this section"
+      "type":        "Tipo",
+      "category":    "Categoria",
+      "useGrouping": "Usar agrupamento",
+      "clearAll":      "Limpar tudo",
+      "linkToSection": "Link para esta seção",
+      "headings":      "Cabeçalhos",
+      "headingsFull":  "Completos",
+      "headingsTitle": "Título",
+      "headingsNone":  "Nenhum"
     },
     "groupDescriptions": {
       "-dyn-capabilitystatement": "<p>Os artefatos seguintes definem as capacidades específicas que se espera que os diferentes tipos de sistemas tenham para estarem em conformidade com este guia de implementação.  Espera-se que os sistemas que estão em conformidade com este guia de implementação declarem conformidade com uma ou mais das seguintes declarações de capacidade.</p>\n"

@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "RNDSErros",
     "title" : "Catálogo de Mensagens e Erros da RNDS",

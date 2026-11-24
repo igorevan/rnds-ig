@@ -1,2 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros,1.0.0-release,active,,RNDSErros,Catálogo de Mensagens e Erros da RNDS,"Códigos de mensagens e erros documentados pela RNDS.","ValueSet/RNDSErros"
+http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros,1.0.0,active,,RNDSErros,Catálogo de Mensagens e Erros da RNDS,"Códigos de mensagens e erros documentados pela RNDS.","ValueSet/RNDSErros"

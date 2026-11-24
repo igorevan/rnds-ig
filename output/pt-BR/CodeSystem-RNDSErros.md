@@ -1,4 +1,4 @@
-# Catálogo de Mensagens e Erros da RNDS - Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS) v1.0.0-release
+# Catálogo de Mensagens e Erros da RNDS - Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS) v1.0.0
 
 ## CodeSystem: Catálogo de Mensagens e Erros da RNDS 
 
@@ -19,41 +19,13 @@ Este sistema de códigos é referenciado na definição dos seguintes conjuntos 
   "resourceType" : "CodeSystem",
   "id" : "RNDSErros",
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/RNDSErros",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "RNDSErros",
   "title" : "Catálogo de Mensagens e Erros da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-23T08:50:44-03:00",
+  "date" : "2026-11-24T14:53:42-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

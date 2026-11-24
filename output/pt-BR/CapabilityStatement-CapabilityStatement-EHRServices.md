@@ -1,8 +1,8 @@
-# CapabilityStatement do EHR-Services da RNDS - Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS) v1.0.0-release
+# CapabilityStatement do EHR-Services da RNDS - Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS) v1.0.0
 
 ## CapabilityStatement: CapabilityStatement do EHR-Services da RNDS 
 
- [Ficheiro OpenAPI-Swagger](../CapabilityStatement-EHRServices.openapi.json) | [Transferir](../CapabilityStatement-EHRServices.openapi.json) 
+ [Arquivo de definição OpenAPI-Swagger](../CapabilityStatement-EHRServices.openapi.json) | [Download](../CapabilityStatement-EHRServices.openapi.json) 
 
 
 
@@ -13,36 +13,8 @@
   "resourceType" : "CapabilityStatement",
   "id" : "CapabilityStatement-EHRServices",
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "CapabilityStatement-EHRServices",
   "title" : "CapabilityStatement do EHR-Services da RNDS",
   "status" : "active",
