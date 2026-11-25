@@ -4,3 +4,5 @@
 
  Baixe todo o Guia de Implementação [aqui](../full-ig.zip) 
 
+ **Package** [`package.tgz`](../package.tgz) 
+

@@ -1,12 +1,12 @@
 RNDSIG
 =========================================
 
-Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/rira/' for "https://fhir.saude.gov.br/rira/" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/ria/' for "https://fhir.saude.gov.br/ria/" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/rac/' for "https://fhir.saude.gov.br/rac/" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/rel/' for "https://fhir.saude.gov.br/rel/" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/sa/' for "https://fhir.saude.gov.br/sa/" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/redfm/' for "https://fhir.saude.gov.br/redfm/" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/rira/' for "fhir.saude.gov.br/rira" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/ria/' for "fhir.saude.gov.br/ria" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/rac/' for "fhir.saude.gov.br/rac" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/rel/' for "fhir.saude.gov.br/rel" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/sa/' for "fhir.saude.gov.br/sa" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'https://fhir.saude.gov.br/redfm/' for "fhir.saude.gov.br/redfm" cannot be resolved (NOTFOUND)
 
 err = 0, warn = 0, info = 0, broken links = 6
 IG Publisher Version: 3.0.5

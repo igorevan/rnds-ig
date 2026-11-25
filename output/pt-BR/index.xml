@@ -82,7 +82,7 @@
         </td>
         <td>
           <code>
-            <a href="https://fhir.saude.gov.br/rira/">https://fhir.saude.gov.br/rira/</a>
+            <a href="https://fhir.saude.gov.br/rira/">fhir.saude.gov.br/rira</a>
           </code>
         </td>
       </tr>
@@ -96,7 +96,7 @@
         </td>
         <td>
           <code>
-            <a href="https://fhir.saude.gov.br/ria/">https://fhir.saude.gov.br/ria/</a>
+            <a href="https://fhir.saude.gov.br/ria/">fhir.saude.gov.br/ria</a>
           </code>
         </td>
       </tr>
@@ -110,7 +110,7 @@
         </td>
         <td>
           <code>
-            <a href="https://fhir.saude.gov.br/rac/">https://fhir.saude.gov.br/rac/</a>
+            <a href="https://fhir.saude.gov.br/rac/">fhir.saude.gov.br/rac</a>
           </code>
         </td>
       </tr>
@@ -124,7 +124,7 @@
         </td>
         <td>
           <code>
-            <a href="https://fhir.saude.gov.br/rel/">https://fhir.saude.gov.br/rel/</a>
+            <a href="https://fhir.saude.gov.br/rel/">fhir.saude.gov.br/rel</a>
           </code>
         </td>
       </tr>
@@ -138,7 +138,7 @@
         </td>
         <td>
           <code>
-            <a href="https://fhir.saude.gov.br/sa/">https://fhir.saude.gov.br/sa/</a>
+            <a href="https://fhir.saude.gov.br/sa/">fhir.saude.gov.br/sa</a>
           </code>
         </td>
       </tr>
@@ -154,7 +154,7 @@
         </td>
         <td>
           <code>
-            <a href="https://fhir.saude.gov.br/redfm/">https://fhir.saude.gov.br/redfm/</a>
+            <a href="https://fhir.saude.gov.br/redfm/">fhir.saude.gov.br/redfm</a>
           </code>
         </td>
       </tr>
@@ -180,7 +180,7 @@
         <td>Ontologia Brasileira de Medicamentos (OBM)</td>
         <td>
           <code>
-            <a href="https://portal-obm.saude.gov.br/">https://portal-obm.saude.gov.br/</a>
+            <a href="https://portal-obm.saude.gov.br/">portal-obm.saude.gov.br</a>
           </code>
         </td>
       </tr>
@@ -193,7 +193,7 @@
         <td>Open Concept Lab (OCL) das terminologias da RNDS</td>
         <td>
           <code>
-            <a href="https://terminologia.saude.gov.br/">https://terminologia.saude.gov.br/</a>
+            <a href="https://terminologia.saude.gov.br/">terminologia.saude.gov.br</a>
           </code>
         </td>
       </tr>
@@ -207,7 +207,7 @@
         <td>
           <code>
             <a href="https://terminologia.saude.gov.br/fhir/">
-              https://terminologia.saude.gov.br/fhir/</a>
+              terminologia.saude.gov.br/fhir</a>
           </code>
         </td>
       </tr>
@@ -221,7 +221,7 @@
           IPS)</td>
         <td>
           <code>
-            <a href="https://hl7.org.br/fhir/ips/">https://hl7.org.br/fhir/ips/</a>
+            <a href="https://hl7.org.br/fhir/ips/">hl7.org.br/fhir/ips</a>
           </code>
         </td>
       </tr>
@@ -235,7 +235,7 @@
         </td>
         <td>
           <code>
-            <a href="https://hl7.org.br/fhir/core/">https://hl7.org.br/fhir/core/</a>
+            <a href="https://hl7.org.br/fhir/core/">hl7.org.br/fhir/core</a>
           </code>
         </td>
       </tr>

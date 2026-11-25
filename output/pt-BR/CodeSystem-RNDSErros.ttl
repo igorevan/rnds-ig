@@ -19,7 +19,7 @@
   fhir:CodeSystem.title [ fhir:value "Catálogo de Mensagens e Erros da RNDS"] ;
   fhir:CodeSystem.status [ fhir:value "active"] ;
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:CodeSystem.date [ fhir:value "2026-11-25T11:34:29-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-11-25T15:07:17-03:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:CodeSystem.contact [
      fhir:index -1 ;
