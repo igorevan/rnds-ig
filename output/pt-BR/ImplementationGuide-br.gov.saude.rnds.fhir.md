@@ -9,13 +9,13 @@
   "resourceType" : "ImplementationGuide",
   "id" : "br.gov.saude.rnds.fhir",
   "language" : "pt-BR",
-  "url" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir",
+  "url" : "https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir",
   "version" : "1.0.0",
   "name" : "RNDSIG",
   "title" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-24T14:53:42-03:00",
+  "date" : "2026-11-25T11:34:29-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -202,7 +202,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://fhir.saude.gov.br/rnds/history.html"
+        "valueString" : "https://fhir.saude.gov.br/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

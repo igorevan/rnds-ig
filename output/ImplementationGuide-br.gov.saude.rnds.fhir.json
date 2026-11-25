@@ -4,15 +4,15 @@
   "language" : "pt-BR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.rnds.fhir</b></p><a name=\"br.gov.saude.rnds.fhir\"> </a><a name=\"hcbr.gov.saude.rnds.fhir\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><h2>RNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.rnds.fhir</b></p><a name=\"br.gov.saude.rnds.fhir\"> </a><a name=\"hcbr.gov.saude.rnds.fhir\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><h2>RNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
   },
-  "url" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir",
+  "url" : "https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir",
   "version" : "1.0.0",
   "name" : "RNDSIG",
   "title" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-24T14:53:42-03:00",
+  "date" : "2026-11-25T11:34:29-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -199,7 +199,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://fhir.saude.gov.br/rnds/history.html"
+        "valueString" : "https://fhir.saude.gov.br/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

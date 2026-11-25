@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/rnds/CodeSystem/RNDSErros> a fhir:CodeSystem ;
+<https://fhir.saude.gov.br/CodeSystem/RNDSErros> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "RNDSErros"] ;
   fhir:Resource.language [ fhir:value "pt-BR"] ;
@@ -19,7 +19,7 @@
   fhir:CodeSystem.title [ fhir:value "Catálogo de Mensagens e Erros da RNDS"] ;
   fhir:CodeSystem.status [ fhir:value "active"] ;
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:CodeSystem.date [ fhir:value "2026-11-24T14:53:42-03:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-11-25T11:34:29-03:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:CodeSystem.contact [
      fhir:index 0 ;
@@ -3845,7 +3845,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/rnds/CodeSystem/RNDSErros.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/CodeSystem/RNDSErros.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

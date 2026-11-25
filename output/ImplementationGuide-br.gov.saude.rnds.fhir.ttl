@@ -5,21 +5,21 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir> a fhir:ImplementationGuide ;
+<https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "br.gov.saude.rnds.fhir"] ;
   fhir:Resource.language [ fhir:value "pt-BR"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.rnds.fhir</b></p><a name=\"br.gov.saude.rnds.fhir\"> </a><a name=\"hcbr.gov.saude.rnds.fhir\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><h2>RNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
+     fhir:Narrative.div "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.rnds.fhir</b></p><a name=\"br.gov.saude.rnds.fhir\"> </a><a name=\"hcbr.gov.saude.rnds.fhir\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><h2>RNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
   ] ;
-  fhir:ImplementationGuide.url [ fhir:value "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir"] ;
+  fhir:ImplementationGuide.url [ fhir:value "https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir"] ;
   fhir:ImplementationGuide.version [ fhir:value "1.0.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "RNDSIG"] ;
   fhir:ImplementationGuide.title [ fhir:value "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-11-24T14:53:42-03:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-11-25T11:34:29-03:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -236,7 +236,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/rnds/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -428,7 +428,7 @@
          fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices> ;
+         fhir:link <https://fhir.saude.gov.br/CapabilityStatement/CapabilityStatement-EHRServices> ;
          fhir:Reference.reference [ fhir:value "CapabilityStatement/CapabilityStatement-EHRServices" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CapabilityStatement do EHR-Services da RNDS" ] ;
@@ -441,7 +441,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/rnds/CodeSystem/RNDSErros> ;
+         fhir:link <https://fhir.saude.gov.br/CodeSystem/RNDSErros> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/RNDSErros" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Catálogo de Mensagens e Erros da RNDS" ] ;
@@ -454,7 +454,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/rnds/ValueSet/RNDSErros> ;
+         fhir:link <https://fhir.saude.gov.br/ValueSet/RNDSErros> ;
          fhir:Reference.reference [ fhir:value "ValueSet/RNDSErros" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mensagens e Erros da RNDS" ] ;
@@ -620,7 +620,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

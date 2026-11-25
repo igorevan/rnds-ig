@@ -17,7 +17,7 @@
 </div></td></tr><tr><td><b>SHALL</b></td><td>practitioner</td><td><code>reference</code></td><td><div><p>Practitioner that is able to provide the defined services for the organization</p>
 </div></td></tr></tbody></table></div><div class="col-lg-5"> </div></div></div></div></div></div>
   </text>
-  <url value="https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices"/>
+  <url value="https://fhir.saude.gov.br/CapabilityStatement/CapabilityStatement-EHRServices"/>
   <version value="1.0.0"/>
   <name value="CapabilityStatement-EHRServices"/>
   <title value="CapabilityStatement do EHR-Services da RNDS"/>

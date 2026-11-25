@@ -1,10 +1,10 @@
 RNDSIG : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 0, broken links = 0
+err = 0, warn = 0, info = 0, broken links = 6
 $--
-Generated $--. FHIR version $-- for br.gov.saude.rnds.fhir#$-- (canonical = https://fhir.saude.gov.br/rnds)
- Build Errors : 0 / 0 / 0
+Generated $--. FHIR version $-- for br.gov.saude.rnds.fhir#$-- (canonical = https://fhir.saude.gov.br)
+ Build Errors : 6 / 0 / 0
  /home/igor/rnds-ig/input/myig : 0 / 0 / 2
  /home/igor/rnds-ig/input/resources/CapabilityStatement-EHRServices : 0 / 7 / 2
  /home/igor/rnds-ig/input/resources/CodeSystem-RNDSErros : 0 / 1 / 6
@@ -12,6 +12,12 @@ Generated $--. FHIR version $-- for br.gov.saude.rnds.fhir#$-- (canonical = http
 </table>
 
 == n/a ==
+ERROR: pt-BR/index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/code/a at Line 311, column 14: The link 'https://fhir.saude.gov.br/rira/' for "https://fhir.saude.gov.br/rira/" cannot be resolved
+ERROR: pt-BR/index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/code/a at Line 325, column 14: The link 'https://fhir.saude.gov.br/ria/' for "https://fhir.saude.gov.br/ria/" cannot be resolved
+ERROR: pt-BR/index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/code/a at Line 339, column 14: The link 'https://fhir.saude.gov.br/rac/' for "https://fhir.saude.gov.br/rac/" cannot be resolved
+ERROR: pt-BR/index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/code/a at Line 353, column 14: The link 'https://fhir.saude.gov.br/rel/' for "https://fhir.saude.gov.br/rel/" cannot be resolved
+ERROR: pt-BR/index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/code/a at Line 367, column 14: The link 'https://fhir.saude.gov.br/sa/' for "https://fhir.saude.gov.br/sa/" cannot be resolved
+ERROR: pt-BR/index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/code/a at Line 383, column 14: The link 'https://fhir.saude.gov.br/redfm/' for "https://fhir.saude.gov.br/redfm/" cannot be resolved
 
 
 == input/myig.xml ==

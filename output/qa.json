@@ -1,20 +1,20 @@
 {
-  "url" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir",
+  "url" : "https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir",
   "name" : "RNDSIG",
   "title" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "description" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
   "status" : "active",
   "package-id" : "br.gov.saude.rnds.fhir",
   "ig-ver" : "1.0.0",
-  "date" : "Tue, 24 Nov, 2026 14:53:42 -0300",
-  "dateISO8601" : "2026-11-24T14:53:42-03:00",
+  "date" : "Wed, 25 Nov, 2026 11:34:29 -0300",
+  "dateISO8601" : "2026-11-25T11:34:29-03:00",
   "errs" : 0,
   "warnings" : 0,
   "hints" : 0,
-  "broken-links" : 0,
+  "broken-links" : 6,
   "suppressed-hints" : 7,
   "suppressed-warnings" : 12,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 1078944896
+  "maxMemory" : 1022097872
 }

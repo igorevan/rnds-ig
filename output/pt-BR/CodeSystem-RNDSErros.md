@@ -25,7 +25,7 @@ Este sistema de códigos é referenciado na definição dos seguintes conjuntos 
   "title" : "Catálogo de Mensagens e Erros da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-24T14:53:42-03:00",
+  "date" : "2026-11-25T11:34:29-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

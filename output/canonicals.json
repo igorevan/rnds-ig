@@ -15,14 +15,14 @@
 {
   "id" : "CapabilityStatement-EHRServices",
   "type" : "CapabilityStatement",
-  "url" : "https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices",
+  "url" : "https://fhir.saude.gov.br/CapabilityStatement/CapabilityStatement-EHRServices",
   "version" : "1.0.0",
   "name" : "CapabilityStatement-EHRServices"
 },
 {
   "id" : "br.gov.saude.rnds.fhir",
   "type" : "ImplementationGuide",
-  "url" : "https://fhir.saude.gov.br/rnds/ImplementationGuide/br.gov.saude.rnds.fhir",
+  "url" : "https://fhir.saude.gov.br/ImplementationGuide/br.gov.saude.rnds.fhir",
   "version" : "1.0.0",
   "name" : "RNDSIG"
 }]

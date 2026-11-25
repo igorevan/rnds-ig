@@ -13,7 +13,7 @@
   "resourceType" : "CapabilityStatement",
   "id" : "CapabilityStatement-EHRServices",
   "language" : "pt-BR",
-  "url" : "https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices",
+  "url" : "https://fhir.saude.gov.br/CapabilityStatement/CapabilityStatement-EHRServices",
   "version" : "1.0.0",
   "name" : "CapabilityStatement-EHRServices",
   "title" : "CapabilityStatement do EHR-Services da RNDS",

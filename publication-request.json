@@ -1,7 +1,7 @@
 {
   "package-id": "br.gov.saude.rnds.fhir",
   "version": "1.0.0",
-  "path": "https://fhir.saude.gov.br/rnds/",
+  "path": "https://fhir.saude.gov.br/",
   "mode": "milestone",
   "status": "release",
   "sequence": "Releases",

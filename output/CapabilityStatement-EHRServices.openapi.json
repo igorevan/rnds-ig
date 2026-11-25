@@ -20,7 +20,7 @@
     }
   ],
   "externalDocs": {
-    "url": "https://fhir.saude.gov.br/rnds/CapabilityStatement/CapabilityStatement-EHRServices",
+    "url": "https://fhir.saude.gov.br/CapabilityStatement/CapabilityStatement-EHRServices",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {
